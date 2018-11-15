@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/Spreadsheet_CustomCellEditors/Form1.cs) (VB: [Form1.vb](./VB/Spreadsheet_CustomCellEditors/Form1.vb))
+<!-- default file list end -->
 # How to assign custom in-place editors to worksheet cells  
 
 
