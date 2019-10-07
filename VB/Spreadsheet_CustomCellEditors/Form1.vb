@@ -25,23 +25,23 @@ Namespace Spreadsheet_CustomCellEditors
         Private Sub BindCustomEditors()
             Dim worksheet As Worksheet = spreadsheetControl.Document.Worksheets("Sales report")
 
-'            #Region "#PredefinedEditors"
+            '            #Region "#PredefinedEditors"
             ' Use a date editor as the in-place editor for cells located in the "Order Date" column of the worksheet table.
-            Dim dateEditRange As Range = worksheet("Table[Order Date]")
+            Dim dateEditRange As CellRange = worksheet("Table[Order Date]")
             worksheet.CustomCellInplaceEditors.Add(dateEditRange, CustomCellInplaceEditorType.DateEdit)
 
             ' Use a combo box editor as the in-place editor for cells located in the "Category" column of the worksheet table.
             ' The editor's items are obtained from a cell range in the current worksheet.
-            Dim comboBoxRange As Range = worksheet("Table[Category]")
+            Dim comboBoxRange As CellRange = worksheet("Table[Category]")
             worksheet.CustomCellInplaceEditors.Add(comboBoxRange, CustomCellInplaceEditorType.ComboBox, ValueObject.FromRange(worksheet("J3:J9")))
 
             ' Use a check editor as the in-place editor for cells located in the "Discount" column of the worksheet table.
-            Dim checkBoxRange As Range = worksheet("Table[Discount]")
+            Dim checkBoxRange As CellRange = worksheet("Table[Discount]")
             worksheet.CustomCellInplaceEditors.Add(checkBoxRange, CustomCellInplaceEditorType.CheckBox)
 
             ' Use the custom control (SpinEdit) as the in-place editor for cells located in the "Quantity" column of the worksheet table.
             ' To provide the required editor, handle the CustomCellEdit event. 
-            Dim customRange As Range = worksheet("Table[Qty]")
+            Dim customRange As CellRange = worksheet("Table[Qty]")
             worksheet.CustomCellInplaceEditors.Add(customRange, CustomCellInplaceEditorType.Custom, "MySpinEdit")
 '            #End Region ' #PredefinedEditors
         End Sub
