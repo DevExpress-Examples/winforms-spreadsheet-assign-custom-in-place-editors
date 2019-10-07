@@ -30,21 +30,21 @@ namespace Spreadsheet_CustomCellEditors
 
             #region #PredefinedEditors
             // Use a date editor as the in-place editor for cells located in the "Order Date" column of the worksheet table.
-            Range dateEditRange = worksheet["Table[Order Date]"];
+            CellRange dateEditRange = worksheet["Table[Order Date]"];
             worksheet.CustomCellInplaceEditors.Add(dateEditRange, CustomCellInplaceEditorType.DateEdit);
 
             // Use a combo box editor as the in-place editor for cells located in the "Category" column of the worksheet table.
             // The editor's items are obtained from a cell range in the current worksheet.
-            Range comboBoxRange = worksheet["Table[Category]"];
+            CellRange comboBoxRange = worksheet["Table[Category]"];
             worksheet.CustomCellInplaceEditors.Add(comboBoxRange, CustomCellInplaceEditorType.ComboBox, ValueObject.FromRange(worksheet["J3:J9"]));
 
             // Use a check editor as the in-place editor for cells located in the "Discount" column of the worksheet table.
-            Range checkBoxRange = worksheet["Table[Discount]"];
+            CellRange checkBoxRange = worksheet["Table[Discount]"];
             worksheet.CustomCellInplaceEditors.Add(checkBoxRange, CustomCellInplaceEditorType.CheckBox);
 
             // Use the custom control (SpinEdit) as the in-place editor for cells located in the "Quantity" column of the worksheet table.
             // To provide the required editor, handle the CustomCellEdit event. 
-            Range customRange = worksheet["Table[Qty]"];
+            CellRange customRange = worksheet["Table[Qty]"];
             worksheet.CustomCellInplaceEditors.Add(customRange, CustomCellInplaceEditorType.Custom, "MySpinEdit");
             #endregion #PredefinedEditors
         }
