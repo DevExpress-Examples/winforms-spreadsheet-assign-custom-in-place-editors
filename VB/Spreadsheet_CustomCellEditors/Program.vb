@@ -4,24 +4,20 @@ Imports System.Windows.Forms
 Imports DevExpress.LookAndFeel
 
 Namespace Spreadsheet_CustomCellEditors
-    Friend NotInheritable Class Program
+	Friend Module Program
+		''' <summary>
+		''' The main entry point for the application.
+		''' </summary>
+		<STAThread>
+		Sub Main()
+			Application.EnableVisualStyles()
+			Application.SetCompatibleTextRenderingDefault(False)
 
-        Private Sub New()
-        End Sub
+			DevExpress.Skins.SkinManager.EnableFormSkins()
+			DevExpress.UserSkins.BonusSkins.Register()
+			UserLookAndFeel.Default.SetSkinStyle("Office 2016 Colorful")
 
-        ''' <summary>
-        ''' The main entry point for the application.
-        ''' </summary>
-        <STAThread> _
-        Shared Sub Main()
-            Application.EnableVisualStyles()
-            Application.SetCompatibleTextRenderingDefault(False)
-
-            DevExpress.Skins.SkinManager.EnableFormSkins()
-            DevExpress.UserSkins.BonusSkins.Register()
-            UserLookAndFeel.Default.SetSkinStyle("Office 2016 Colorful")
-
-            Application.Run(New Form1())
-        End Sub
-    End Class
+			Application.Run(New Form1())
+		End Sub
+	End Module
 End Namespace
