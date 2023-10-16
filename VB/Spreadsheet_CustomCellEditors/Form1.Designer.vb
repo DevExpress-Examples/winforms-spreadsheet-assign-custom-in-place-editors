@@ -1,5 +1,7 @@
-﻿Namespace Spreadsheet_CustomCellEditors
-    Partial Public Class Form1
+Namespace Spreadsheet_CustomCellEditors
+
+    Partial Class Form1
+
         ''' <summary>
         ''' Required designer variable.
         ''' </summary>
@@ -10,249 +12,249 @@
         ''' </summary>
         ''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-            If disposing AndAlso (components IsNot Nothing) Then
-                components.Dispose()
+            If disposing AndAlso (Me.components IsNot Nothing) Then
+                Me.components.Dispose()
             End If
+
             MyBase.Dispose(disposing)
         End Sub
 
-        #Region "Windows Form Designer generated code"
-
+#Region "Windows Form Designer generated code"
         ''' <summary>
         ''' Required method for Designer support - do not modify
         ''' the contents of this method with the code editor.
         ''' </summary>
         Private Sub InitializeComponent()
             Me.components = New System.ComponentModel.Container()
-            Dim resources As New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-            Dim spreadsheetCommandGalleryItemGroup41 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem198 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem199 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem200 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem201 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem202 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem203 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem204 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem205 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem206 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup42 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem207 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem208 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem209 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem210 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem211 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem212 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem213 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem214 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem215 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup43 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem216 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem217 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem218 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem219 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup44 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem220 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem221 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem222 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem223 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup45 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem224 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem225 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem226 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup46 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem227 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem228 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup47 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem229 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem230 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem231 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem232 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup48 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem233 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem234 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem235 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem236 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem237 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem238 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem239 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup49 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem240 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem241 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem242 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem243 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem244 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem245 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem246 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem247 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem248 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem249 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem250 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup50 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem251 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem252 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem253 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem254 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem255 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup51 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem256 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem257 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup52 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem258 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem259 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem260 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem261 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup53 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem262 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem263 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem264 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup54 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem265 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem266 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem267 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem268 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup55 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem269 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem270 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem271 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem272 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup56 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem273 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem274 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem275 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem276 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup57 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem277 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem278 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem279 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem280 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup58 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem281 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem282 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem283 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem284 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem285 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem286 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup59 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem287 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup60 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem288 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem289 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup61 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem290 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem291 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup62 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem292 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem293 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup63 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem294 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem295 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem296 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup64 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem297 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem298 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem299 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup65 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem300 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem301 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem302 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup66 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem303 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem304 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem305 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup67 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem306 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem307 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem308 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup68 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem309 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem310 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem311 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup69 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem312 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem313 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem314 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup70 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem315 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem316 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem317 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem318 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem319 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup71 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem320 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem321 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup72 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem322 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem323 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem324 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem325 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup73 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem326 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem327 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem328 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim reduceOperation2 As New DevExpress.XtraBars.Ribbon.ReduceOperation()
-            Dim galleryItemGroup2 As New DevExpress.XtraBars.Ribbon.GalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem187 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem188 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem189 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem190 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem191 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem192 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem193 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem194 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem195 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem196 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem197 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup74 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem329 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem330 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem331 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem332 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem333 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem334 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup75 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem335 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem336 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem337 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem338 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem339 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem340 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup76 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem341 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem342 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem343 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem344 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem345 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem346 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem347 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem348 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem349 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem350 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem351 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem352 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup77 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem353 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem354 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem355 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem356 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem357 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem358 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem359 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup78 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem360 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem361 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem362 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem363 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem364 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup79 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem365 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem366 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem367 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItemGroup80 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
-            Dim spreadsheetCommandGalleryItem368 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem369 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem370 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem371 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
-            Dim spreadsheetCommandGalleryItem372 As New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Spreadsheet_CustomCellEditors.Form1))
+            Dim spreadsheetCommandGalleryItemGroup41 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem198 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem199 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem200 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem201 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem202 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem203 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem204 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem205 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem206 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup42 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem207 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem208 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem209 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem210 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem211 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem212 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem213 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem214 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem215 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup43 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem216 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem217 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem218 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem219 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup44 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem220 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem221 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem222 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem223 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup45 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem224 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem225 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem226 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup46 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem227 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem228 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup47 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem229 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem230 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem231 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem232 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup48 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem233 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem234 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem235 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem236 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem237 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem238 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem239 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup49 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem240 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem241 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem242 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem243 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem244 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem245 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem246 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem247 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem248 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem249 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem250 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup50 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem251 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem252 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem253 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem254 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem255 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup51 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem256 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem257 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup52 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem258 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem259 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem260 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem261 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup53 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem262 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem263 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem264 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup54 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem265 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem266 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem267 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem268 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup55 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem269 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem270 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem271 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem272 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup56 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem273 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem274 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem275 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem276 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup57 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem277 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem278 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem279 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem280 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup58 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem281 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem282 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem283 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem284 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem285 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem286 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup59 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem287 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup60 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem288 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem289 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup61 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem290 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem291 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup62 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem292 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem293 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup63 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem294 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem295 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem296 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup64 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem297 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem298 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem299 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup65 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem300 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem301 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem302 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup66 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem303 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem304 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem305 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup67 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem306 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem307 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem308 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup68 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem309 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem310 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem311 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup69 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem312 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem313 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem314 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup70 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem315 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem316 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem317 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem318 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem319 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup71 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem320 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem321 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup72 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem322 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem323 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem324 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem325 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup73 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem326 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem327 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem328 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim reduceOperation2 As DevExpress.XtraBars.Ribbon.ReduceOperation = New DevExpress.XtraBars.Ribbon.ReduceOperation()
+            Dim galleryItemGroup2 As DevExpress.XtraBars.Ribbon.GalleryItemGroup = New DevExpress.XtraBars.Ribbon.GalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem187 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem188 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem189 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem190 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem191 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem192 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem193 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem194 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem195 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem196 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem197 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup74 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem329 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem330 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem331 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem332 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem333 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem334 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup75 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem335 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem336 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem337 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem338 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem339 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem340 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup76 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem341 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem342 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem343 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem344 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem345 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem346 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem347 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem348 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem349 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem350 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem351 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem352 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup77 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem353 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem354 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem355 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem356 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem357 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem358 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem359 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup78 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem360 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem361 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem362 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem363 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem364 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup79 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem365 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem366 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem367 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItemGroup80 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup()
+            Dim spreadsheetCommandGalleryItem368 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem369 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem370 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem371 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
+            Dim spreadsheetCommandGalleryItem372 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem()
             Me.ribbonControl = New DevExpress.XtraBars.Ribbon.RibbonControl()
             Me.appMenu = New DevExpress.XtraBars.Ribbon.ApplicationMenu(Me.components)
             Me.popupControlContainer2 = New DevExpress.XtraBars.PopupControlContainer(Me.components)
@@ -714,48 +716,48 @@
             Me.spreadsheetCommandBarButtonItem194 = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem()
             Me.infoRibbonPageGroup1 = New DevExpress.XtraSpreadsheet.UI.InfoRibbonPageGroup()
             Me.spreadsheetCommandBarButtonItem195 = New DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem()
-            DirectCast(Me.ribbonControl, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.appMenu, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.popupControlContainer2, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.ribbonControl), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.appMenu), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.popupControlContainer2), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.popupControlContainer2.SuspendLayout()
-            DirectCast(Me.buttonEdit.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.popupControlContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.buttonEdit.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.popupControlContainer1), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.popupControlContainer1.SuspendLayout()
-            DirectCast(Me.ribbonImageCollection, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.ribbonImageCollectionLarge, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.ribbonImageCollection), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.ribbonImageCollectionLarge), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.spreadsheetFormulaBarPanel.SuspendLayout()
-            DirectCast(Me.formulaBarNameBoxSplitContainerControl, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.formulaBarNameBoxSplitContainerControl), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.formulaBarNameBoxSplitContainerControl.SuspendLayout()
-            DirectCast(Me.spreadsheetNameBoxControl.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.spreadsheetBarController1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.repositoryItemTextEdit1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown2, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown3, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown4, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown5, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown6, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown7, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown8, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown9, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown10, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown11, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown12, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown13, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown14, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown15, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown16, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown17, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown18, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown19, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown20, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.repositoryItemFontEdit1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.repositoryItemSpreadsheetFontSizeEdit1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.repositoryItemPopupGalleryEdit1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown21, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown22, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown23, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.commandBarGalleryDropDown24, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.spreadsheetNameBoxControl.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.spreadsheetBarController1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.repositoryItemTextEdit1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown2), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown3), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown4), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown5), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown6), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown7), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown8), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown9), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown10), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown11), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown12), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown13), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown14), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown15), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown16), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown17), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown18), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown19), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown20), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.repositoryItemFontEdit1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.repositoryItemSpreadsheetFontSizeEdit1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.repositoryItemPopupGalleryEdit1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown21), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown22), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown23), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.commandBarGalleryDropDown24), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             ' 
             ' ribbonControl
@@ -764,16 +766,16 @@
             Me.ribbonControl.ApplicationButtonText = Nothing
             Me.ribbonControl.ExpandCollapseItem.Id = 0
             Me.ribbonControl.Images = Me.ribbonImageCollection
-            Me.ribbonControl.Items.AddRange(New DevExpress.XtraBars.BarItem() { Me.ribbonControl.ExpandCollapseItem, Me.iExit, Me.iHelp, Me.iAbout, Me.siStatus, Me.siInfo, Me.rgbiSkins, Me.spreadsheetCommandBarSubItem1, Me.spreadsheetCommandBarButtonItem1, Me.spreadsheetCommandBarButtonItem2, Me.spreadsheetCommandBarButtonItem3, Me.spreadsheetCommandBarSubItem2, Me.spreadsheetCommandBarButtonItem4, Me.spreadsheetCommandBarButtonItem5, Me.spreadsheetCommandBarButtonItem6, Me.spreadsheetCommandBarButtonItem7, Me.spreadsheetCommandBarSubItem3, Me.spreadsheetCommandBarButtonItem8, Me.spreadsheetCommandBarButtonItem9, Me.spreadsheetCommandBarButtonItem10, Me.spreadsheetCommandBarButtonItem11, Me.spreadsheetCommandBarButtonItem12, Me.spreadsheetCommandBarSubItem4, Me.spreadsheetCommandBarButtonItem13, Me.spreadsheetCommandBarButtonItem14, Me.spreadsheetCommandBarCheckItem1, Me.spreadsheetCommandBarCheckItem2, Me.spreadsheetCommandBarCheckItem3, Me.spreadsheetCommandBarCheckItem4, Me.galleryPivotStylesItem1, Me.spreadsheetCommandBarButtonItem15, Me.spreadsheetCommandBarButtonItem16, Me.spreadsheetCommandBarButtonItem17, Me.spreadsheetCommandBarButtonItem18, Me.spreadsheetCommandBarButtonItem19, Me.spreadsheetCommandBarButtonItem20, Me.spreadsheetCommandBarButtonItem21, Me.spreadsheetCommandBarSubItem5, Me.spreadsheetCommandBarButtonItem22, Me.spreadsheetCommandBarButtonItem23, Me.spreadsheetCommandBarButtonItem24, Me.spreadsheetCommandBarSubItem6, Me.spreadsheetCommandBarButtonItem25, Me.spreadsheetCommandBarButtonItem26, Me.spreadsheetCommandBarSubItem7, Me.spreadsheetCommandBarButtonItem27, Me.spreadsheetCommandBarButtonItem28, Me.spreadsheetCommandBarButtonItem29, Me.spreadsheetCommandBarButtonItem30, Me.spreadsheetCommandBarSubItem8, Me.spreadsheetCommandBarButtonItem31, Me.spreadsheetCommandBarButtonItem32, Me.spreadsheetCommandBarButtonItem33, Me.spreadsheetCommandBarButtonItem34, Me.spreadsheetCommandBarCheckItem5, Me.spreadsheetCommandBarCheckItem6, Me.spreadsheetCommandBarCheckItem7, Me.spreadsheetCommandBarSubItem9, Me.spreadsheetCommandBarButtonItem35, Me.spreadsheetCommandBarButtonItem36, Me.spreadsheetCommandBarSubItem10, Me.spreadsheetCommandBarButtonItem37, Me.spreadsheetCommandBarButtonItem38, Me.barStaticItem1, Me.renameTableItem1, Me.spreadsheetCommandBarCheckItem8, Me.spreadsheetCommandBarCheckItem9, Me.spreadsheetCommandBarCheckItem10, Me.spreadsheetCommandBarCheckItem11, Me.spreadsheetCommandBarCheckItem12, Me.spreadsheetCommandBarCheckItem13, Me.spreadsheetCommandBarCheckItem14, Me.galleryTableStylesItem1, Me.spreadsheetCommandBarSubItem11, Me.spreadsheetCommandBarButtonGalleryDropDownItem1, Me.spreadsheetCommandBarButtonGalleryDropDownItem2, Me.spreadsheetCommandBarSubItem12, Me.spreadsheetCommandBarButtonGalleryDropDownItem3, Me.spreadsheetCommandBarButtonGalleryDropDownItem4, Me.spreadsheetCommandBarButtonGalleryDropDownItem5, Me.spreadsheetCommandBarSubItem13, Me.spreadsheetCommandBarButtonGalleryDropDownItem6, Me.spreadsheetCommandBarButtonGalleryDropDownItem7, Me.spreadsheetCommandBarButtonGalleryDropDownItem8, Me.spreadsheetCommandBarButtonGalleryDropDownItem9, Me.spreadsheetCommandBarButtonGalleryDropDownItem10, Me.spreadsheetCommandBarButtonGalleryDropDownItem11, Me.spreadsheetCommandBarButtonGalleryDropDownItem12, Me.spreadsheetCommandBarButtonItem39, Me.spreadsheetCommandBarButtonItem40, Me.spreadsheetCommandBarButtonItem41, Me.galleryChartLayoutItem1, Me.galleryChartStyleItem1, Me.spreadsheetCommandBarCheckItem15, Me.spreadsheetCommandBarCheckItem16, Me.spreadsheetCommandBarButtonItem42, Me.spreadsheetCommandBarButtonItem43, Me.spreadsheetCommandBarButtonItem44, Me.spreadsheetCommandBarSubItem14, Me.spreadsheetCommandBarButtonItem45, Me.spreadsheetCommandBarButtonItem46, Me.spreadsheetCommandBarButtonItem47, Me.spreadsheetCommandBarButtonItem48, Me.spreadsheetCommandBarButtonItem49, Me.spreadsheetCommandBarButtonItem50, Me.spreadsheetCommandBarButtonItem51, Me.spreadsheetCommandBarButtonItem52, Me.spreadsheetCommandBarButtonItem53, Me.spreadsheetCommandBarButtonItem54, Me.spreadsheetCommandBarButtonItem55, Me.spreadsheetCommandBarButtonItem56, Me.spreadsheetCommandBarButtonItem57, Me.spreadsheetCommandBarButtonItem58, Me.spreadsheetCommandBarButtonItem59, Me.spreadsheetCommandBarCheckItem17, Me.spreadsheetCommandBarButtonItem60, Me.spreadsheetCommandBarButtonItem61, Me.spreadsheetCommandBarSubItem15, Me.spreadsheetCommandBarButtonItem62, Me.spreadsheetCommandBarButtonItem63, Me.spreadsheetCommandBarButtonItem64, Me.spreadsheetCommandBarSubItem16, Me.spreadsheetCommandBarButtonItem65, Me.spreadsheetCommandBarButtonItem66, Me.spreadsheetCommandBarSubItem17, Me.spreadsheetCommandBarButtonItem67, Me.spreadsheetCommandBarButtonItem68, Me.spreadsheetCommandBarButtonItem69, Me.spreadsheetCommandBarButtonItem70, Me.spreadsheetCommandBarButtonItem71, Me.spreadsheetCommandBarSubItem18, Me.spreadsheetCommandBarButtonItem72, Me.spreadsheetCommandBarButtonItem73, Me.spreadsheetCommandBarButtonItem74, Me.spreadsheetCommandBarButtonItem75, Me.spreadsheetCommandBarButtonItem76, Me.functionsFinancialItem1, Me.functionsLogicalItem1, Me.functionsTextItem1, Me.functionsDateAndTimeItem1, Me.functionsLookupAndReferenceItem1, Me.functionsMathAndTrigonometryItem1, Me.spreadsheetCommandBarSubItem19, Me.functionsStatisticalItem1, Me.functionsEngineeringItem1, Me.functionsInformationItem1, Me.functionsCompatibilityItem1, Me.functionsWebItem1, Me.spreadsheetCommandBarButtonItem77, Me.spreadsheetCommandBarButtonItem78, Me.definedNameListItem1, Me.spreadsheetCommandBarButtonItem79, Me.spreadsheetCommandBarCheckItem18, Me.spreadsheetCommandBarSubItem20, Me.spreadsheetCommandBarCheckItem19, Me.spreadsheetCommandBarCheckItem20, Me.spreadsheetCommandBarButtonItem80, Me.spreadsheetCommandBarButtonItem81, Me.spreadsheetCommandBarSubItem21, Me.spreadsheetCommandBarCheckItem21, Me.spreadsheetCommandBarCheckItem22, Me.spreadsheetCommandBarCheckItem23, Me.spreadsheetCommandBarButtonItem82, Me.spreadsheetCommandBarSubItem22, Me.spreadsheetCommandBarCheckItem24, Me.spreadsheetCommandBarCheckItem25, Me.pageSetupPaperKindItem1, Me.spreadsheetCommandBarSubItem23, Me.spreadsheetCommandBarButtonItem83, Me.spreadsheetCommandBarButtonItem84, Me.spreadsheetCommandBarButtonItem85, Me.spreadsheetCommandBarCheckItem26, Me.spreadsheetCommandBarCheckItem27, Me.spreadsheetCommandBarButtonItem86, Me.spreadsheetCommandBarButtonItem87, Me.spreadsheetCommandBarButtonItem88, Me.spreadsheetCommandBarButtonGalleryDropDownItem13, Me.spreadsheetCommandBarButtonGalleryDropDownItem14, Me.spreadsheetCommandBarButtonGalleryDropDownItem15, Me.spreadsheetCommandBarButtonGalleryDropDownItem16, Me.spreadsheetCommandBarButtonGalleryDropDownItem17, Me.spreadsheetCommandBarButtonGalleryDropDownItem18, Me.spreadsheetCommandBarButtonGalleryDropDownItem19, Me.spreadsheetCommandBarButtonItem89, Me.spreadsheetCommandBarButtonItem90, Me.spreadsheetCommandBarButtonItem91, Me.spreadsheetCommandBarButtonItem92, Me.spreadsheetCommandBarButtonItem93, Me.spreadsheetCommandBarButtonItem94, Me.barButtonGroup1, Me.changeFontNameItem1, Me.changeFontSizeItem1, Me.spreadsheetCommandBarButtonItem95, Me.spreadsheetCommandBarButtonItem96, Me.barButtonGroup2, Me.spreadsheetCommandBarCheckItem28, Me.spreadsheetCommandBarCheckItem29, Me.spreadsheetCommandBarCheckItem30, Me.spreadsheetCommandBarCheckItem31, Me.barButtonGroup3, Me.spreadsheetCommandBarSubItem24, Me.spreadsheetCommandBarButtonItem97, Me.spreadsheetCommandBarButtonItem98, Me.spreadsheetCommandBarButtonItem99, Me.spreadsheetCommandBarButtonItem100, Me.spreadsheetCommandBarButtonItem101, Me.spreadsheetCommandBarButtonItem102, Me.spreadsheetCommandBarButtonItem103, Me.spreadsheetCommandBarButtonItem104, Me.spreadsheetCommandBarButtonItem105, Me.spreadsheetCommandBarButtonItem106, Me.spreadsheetCommandBarButtonItem107, Me.spreadsheetCommandBarButtonItem108, Me.spreadsheetCommandBarButtonItem109, Me.changeBorderLineColorItem1, Me.changeBorderLineStyleItem1, Me.barButtonGroup4, Me.changeCellFillColorItem1, Me.changeFontColorItem1, Me.barButtonGroup5, Me.spreadsheetCommandBarCheckItem32, Me.spreadsheetCommandBarCheckItem33, Me.spreadsheetCommandBarCheckItem34, Me.barButtonGroup6, Me.spreadsheetCommandBarCheckItem35, Me.spreadsheetCommandBarCheckItem36, Me.spreadsheetCommandBarCheckItem37, Me.barButtonGroup7, Me.spreadsheetCommandBarButtonItem110, Me.spreadsheetCommandBarButtonItem111, Me.spreadsheetCommandBarCheckItem38, Me.spreadsheetCommandBarSubItem25, Me.spreadsheetCommandBarCheckItem39, Me.spreadsheetCommandBarButtonItem112, Me.spreadsheetCommandBarButtonItem113, Me.spreadsheetCommandBarButtonItem114, Me.barButtonGroup8, Me.changeNumberFormatItem1, Me.barButtonGroup9, Me.spreadsheetCommandBarSubItem26, Me.spreadsheetCommandBarButtonItem115, Me.spreadsheetCommandBarButtonItem116, Me.spreadsheetCommandBarButtonItem117, Me.spreadsheetCommandBarButtonItem118, Me.spreadsheetCommandBarButtonItem119, Me.spreadsheetCommandBarButtonItem120, Me.spreadsheetCommandBarButtonItem121, Me.barButtonGroup10, Me.spreadsheetCommandBarButtonItem122, Me.spreadsheetCommandBarButtonItem123, Me.spreadsheetCommandBarSubItem27, Me.spreadsheetCommandBarButtonItem124, Me.spreadsheetCommandBarButtonItem125, Me.spreadsheetCommandBarButtonItem126, Me.spreadsheetCommandBarButtonItem127, Me.spreadsheetCommandBarButtonItem128, Me.spreadsheetCommandBarButtonItem129, Me.spreadsheetCommandBarButtonItem130, Me.spreadsheetCommandBarSubItem28, Me.spreadsheetCommandBarButtonItem131, Me.spreadsheetCommandBarButtonItem132, Me.spreadsheetCommandBarButtonItem133, Me.spreadsheetCommandBarButtonItem134, Me.spreadsheetCommandBarButtonItem135, Me.spreadsheetCommandBarButtonItem136, Me.spreadsheetCommandBarSubItem29, Me.spreadsheetCommandBarButtonGalleryDropDownItem20, Me.spreadsheetCommandBarButtonGalleryDropDownItem21, Me.spreadsheetCommandBarButtonGalleryDropDownItem22, Me.spreadsheetCommandBarButtonItem137, Me.spreadsheetCommandBarButtonItem138, Me.spreadsheetCommandBarSubItem30, Me.galleryFormatAsTableItem1, Me.galleryChangeStyleItem1, Me.spreadsheetCommandBarSubItem31, Me.spreadsheetCommandBarButtonItem139, Me.spreadsheetCommandBarButtonItem140, Me.spreadsheetCommandBarButtonItem141, Me.spreadsheetCommandBarSubItem32, Me.spreadsheetCommandBarButtonItem142, Me.spreadsheetCommandBarButtonItem143, Me.spreadsheetCommandBarButtonItem144, Me.spreadsheetCommandBarSubItem33, Me.spreadsheetCommandBarButtonItem145, Me.spreadsheetCommandBarButtonItem146, Me.spreadsheetCommandBarButtonItem147, Me.spreadsheetCommandBarButtonItem148, Me.spreadsheetCommandBarButtonItem149, Me.spreadsheetCommandBarButtonItem150, Me.spreadsheetCommandBarButtonItem151, Me.spreadsheetCommandBarButtonItem152, Me.spreadsheetCommandBarButtonItem153, Me.spreadsheetCommandBarButtonItem154, Me.spreadsheetCommandBarButtonItem155, Me.spreadsheetCommandBarSubItem34, Me.spreadsheetCommandBarButtonItem156, Me.spreadsheetCommandBarButtonItem157, Me.changeSheetTabColorItem1, Me.spreadsheetCommandBarCheckItem40, Me.spreadsheetCommandBarButtonItem159, Me.spreadsheetCommandBarSubItem35, Me.spreadsheetCommandBarSubItem36, Me.spreadsheetCommandBarButtonItem165, Me.spreadsheetCommandBarButtonItem166, Me.spreadsheetCommandBarButtonItem167, Me.spreadsheetCommandBarButtonItem168, Me.spreadsheetCommandBarSubItem37, Me.spreadsheetCommandBarButtonItem169, Me.spreadsheetCommandBarButtonItem170, Me.spreadsheetCommandBarButtonItem171, Me.spreadsheetCommandBarButtonItem172, Me.spreadsheetCommandBarButtonItem173, Me.spreadsheetCommandBarButtonItem174, Me.spreadsheetCommandBarSubItem38, Me.spreadsheetCommandBarSubItem39, Me.spreadsheetCommandBarButtonItem179, Me.spreadsheetCommandBarButtonItem180, Me.spreadsheetCommandBarButtonItem181, Me.spreadsheetCommandBarButtonItem182, Me.spreadsheetCommandBarButtonItem183, Me.spreadsheetCommandBarButtonItem184, Me.spreadsheetCommandBarButtonItem185, Me.spreadsheetCommandBarButtonItem186, Me.spreadsheetCommandBarButtonItem187, Me.spreadsheetCommandBarButtonItem188, Me.spreadsheetCommandBarButtonItem189, Me.spreadsheetCommandBarButtonItem190, Me.spreadsheetCommandBarButtonItem191, Me.spreadsheetCommandBarButtonItem192, Me.spreadsheetCommandBarButtonItem193, Me.spreadsheetCommandBarButtonItem194, Me.spreadsheetCommandBarButtonItem195})
+            Me.ribbonControl.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.ribbonControl.ExpandCollapseItem, Me.iExit, Me.iHelp, Me.iAbout, Me.siStatus, Me.siInfo, Me.rgbiSkins, Me.spreadsheetCommandBarSubItem1, Me.spreadsheetCommandBarButtonItem1, Me.spreadsheetCommandBarButtonItem2, Me.spreadsheetCommandBarButtonItem3, Me.spreadsheetCommandBarSubItem2, Me.spreadsheetCommandBarButtonItem4, Me.spreadsheetCommandBarButtonItem5, Me.spreadsheetCommandBarButtonItem6, Me.spreadsheetCommandBarButtonItem7, Me.spreadsheetCommandBarSubItem3, Me.spreadsheetCommandBarButtonItem8, Me.spreadsheetCommandBarButtonItem9, Me.spreadsheetCommandBarButtonItem10, Me.spreadsheetCommandBarButtonItem11, Me.spreadsheetCommandBarButtonItem12, Me.spreadsheetCommandBarSubItem4, Me.spreadsheetCommandBarButtonItem13, Me.spreadsheetCommandBarButtonItem14, Me.spreadsheetCommandBarCheckItem1, Me.spreadsheetCommandBarCheckItem2, Me.spreadsheetCommandBarCheckItem3, Me.spreadsheetCommandBarCheckItem4, Me.galleryPivotStylesItem1, Me.spreadsheetCommandBarButtonItem15, Me.spreadsheetCommandBarButtonItem16, Me.spreadsheetCommandBarButtonItem17, Me.spreadsheetCommandBarButtonItem18, Me.spreadsheetCommandBarButtonItem19, Me.spreadsheetCommandBarButtonItem20, Me.spreadsheetCommandBarButtonItem21, Me.spreadsheetCommandBarSubItem5, Me.spreadsheetCommandBarButtonItem22, Me.spreadsheetCommandBarButtonItem23, Me.spreadsheetCommandBarButtonItem24, Me.spreadsheetCommandBarSubItem6, Me.spreadsheetCommandBarButtonItem25, Me.spreadsheetCommandBarButtonItem26, Me.spreadsheetCommandBarSubItem7, Me.spreadsheetCommandBarButtonItem27, Me.spreadsheetCommandBarButtonItem28, Me.spreadsheetCommandBarButtonItem29, Me.spreadsheetCommandBarButtonItem30, Me.spreadsheetCommandBarSubItem8, Me.spreadsheetCommandBarButtonItem31, Me.spreadsheetCommandBarButtonItem32, Me.spreadsheetCommandBarButtonItem33, Me.spreadsheetCommandBarButtonItem34, Me.spreadsheetCommandBarCheckItem5, Me.spreadsheetCommandBarCheckItem6, Me.spreadsheetCommandBarCheckItem7, Me.spreadsheetCommandBarSubItem9, Me.spreadsheetCommandBarButtonItem35, Me.spreadsheetCommandBarButtonItem36, Me.spreadsheetCommandBarSubItem10, Me.spreadsheetCommandBarButtonItem37, Me.spreadsheetCommandBarButtonItem38, Me.barStaticItem1, Me.renameTableItem1, Me.spreadsheetCommandBarCheckItem8, Me.spreadsheetCommandBarCheckItem9, Me.spreadsheetCommandBarCheckItem10, Me.spreadsheetCommandBarCheckItem11, Me.spreadsheetCommandBarCheckItem12, Me.spreadsheetCommandBarCheckItem13, Me.spreadsheetCommandBarCheckItem14, Me.galleryTableStylesItem1, Me.spreadsheetCommandBarSubItem11, Me.spreadsheetCommandBarButtonGalleryDropDownItem1, Me.spreadsheetCommandBarButtonGalleryDropDownItem2, Me.spreadsheetCommandBarSubItem12, Me.spreadsheetCommandBarButtonGalleryDropDownItem3, Me.spreadsheetCommandBarButtonGalleryDropDownItem4, Me.spreadsheetCommandBarButtonGalleryDropDownItem5, Me.spreadsheetCommandBarSubItem13, Me.spreadsheetCommandBarButtonGalleryDropDownItem6, Me.spreadsheetCommandBarButtonGalleryDropDownItem7, Me.spreadsheetCommandBarButtonGalleryDropDownItem8, Me.spreadsheetCommandBarButtonGalleryDropDownItem9, Me.spreadsheetCommandBarButtonGalleryDropDownItem10, Me.spreadsheetCommandBarButtonGalleryDropDownItem11, Me.spreadsheetCommandBarButtonGalleryDropDownItem12, Me.spreadsheetCommandBarButtonItem39, Me.spreadsheetCommandBarButtonItem40, Me.spreadsheetCommandBarButtonItem41, Me.galleryChartLayoutItem1, Me.galleryChartStyleItem1, Me.spreadsheetCommandBarCheckItem15, Me.spreadsheetCommandBarCheckItem16, Me.spreadsheetCommandBarButtonItem42, Me.spreadsheetCommandBarButtonItem43, Me.spreadsheetCommandBarButtonItem44, Me.spreadsheetCommandBarSubItem14, Me.spreadsheetCommandBarButtonItem45, Me.spreadsheetCommandBarButtonItem46, Me.spreadsheetCommandBarButtonItem47, Me.spreadsheetCommandBarButtonItem48, Me.spreadsheetCommandBarButtonItem49, Me.spreadsheetCommandBarButtonItem50, Me.spreadsheetCommandBarButtonItem51, Me.spreadsheetCommandBarButtonItem52, Me.spreadsheetCommandBarButtonItem53, Me.spreadsheetCommandBarButtonItem54, Me.spreadsheetCommandBarButtonItem55, Me.spreadsheetCommandBarButtonItem56, Me.spreadsheetCommandBarButtonItem57, Me.spreadsheetCommandBarButtonItem58, Me.spreadsheetCommandBarButtonItem59, Me.spreadsheetCommandBarCheckItem17, Me.spreadsheetCommandBarButtonItem60, Me.spreadsheetCommandBarButtonItem61, Me.spreadsheetCommandBarSubItem15, Me.spreadsheetCommandBarButtonItem62, Me.spreadsheetCommandBarButtonItem63, Me.spreadsheetCommandBarButtonItem64, Me.spreadsheetCommandBarSubItem16, Me.spreadsheetCommandBarButtonItem65, Me.spreadsheetCommandBarButtonItem66, Me.spreadsheetCommandBarSubItem17, Me.spreadsheetCommandBarButtonItem67, Me.spreadsheetCommandBarButtonItem68, Me.spreadsheetCommandBarButtonItem69, Me.spreadsheetCommandBarButtonItem70, Me.spreadsheetCommandBarButtonItem71, Me.spreadsheetCommandBarSubItem18, Me.spreadsheetCommandBarButtonItem72, Me.spreadsheetCommandBarButtonItem73, Me.spreadsheetCommandBarButtonItem74, Me.spreadsheetCommandBarButtonItem75, Me.spreadsheetCommandBarButtonItem76, Me.functionsFinancialItem1, Me.functionsLogicalItem1, Me.functionsTextItem1, Me.functionsDateAndTimeItem1, Me.functionsLookupAndReferenceItem1, Me.functionsMathAndTrigonometryItem1, Me.spreadsheetCommandBarSubItem19, Me.functionsStatisticalItem1, Me.functionsEngineeringItem1, Me.functionsInformationItem1, Me.functionsCompatibilityItem1, Me.functionsWebItem1, Me.spreadsheetCommandBarButtonItem77, Me.spreadsheetCommandBarButtonItem78, Me.definedNameListItem1, Me.spreadsheetCommandBarButtonItem79, Me.spreadsheetCommandBarCheckItem18, Me.spreadsheetCommandBarSubItem20, Me.spreadsheetCommandBarCheckItem19, Me.spreadsheetCommandBarCheckItem20, Me.spreadsheetCommandBarButtonItem80, Me.spreadsheetCommandBarButtonItem81, Me.spreadsheetCommandBarSubItem21, Me.spreadsheetCommandBarCheckItem21, Me.spreadsheetCommandBarCheckItem22, Me.spreadsheetCommandBarCheckItem23, Me.spreadsheetCommandBarButtonItem82, Me.spreadsheetCommandBarSubItem22, Me.spreadsheetCommandBarCheckItem24, Me.spreadsheetCommandBarCheckItem25, Me.pageSetupPaperKindItem1, Me.spreadsheetCommandBarSubItem23, Me.spreadsheetCommandBarButtonItem83, Me.spreadsheetCommandBarButtonItem84, Me.spreadsheetCommandBarButtonItem85, Me.spreadsheetCommandBarCheckItem26, Me.spreadsheetCommandBarCheckItem27, Me.spreadsheetCommandBarButtonItem86, Me.spreadsheetCommandBarButtonItem87, Me.spreadsheetCommandBarButtonItem88, Me.spreadsheetCommandBarButtonGalleryDropDownItem13, Me.spreadsheetCommandBarButtonGalleryDropDownItem14, Me.spreadsheetCommandBarButtonGalleryDropDownItem15, Me.spreadsheetCommandBarButtonGalleryDropDownItem16, Me.spreadsheetCommandBarButtonGalleryDropDownItem17, Me.spreadsheetCommandBarButtonGalleryDropDownItem18, Me.spreadsheetCommandBarButtonGalleryDropDownItem19, Me.spreadsheetCommandBarButtonItem89, Me.spreadsheetCommandBarButtonItem90, Me.spreadsheetCommandBarButtonItem91, Me.spreadsheetCommandBarButtonItem92, Me.spreadsheetCommandBarButtonItem93, Me.spreadsheetCommandBarButtonItem94, Me.barButtonGroup1, Me.changeFontNameItem1, Me.changeFontSizeItem1, Me.spreadsheetCommandBarButtonItem95, Me.spreadsheetCommandBarButtonItem96, Me.barButtonGroup2, Me.spreadsheetCommandBarCheckItem28, Me.spreadsheetCommandBarCheckItem29, Me.spreadsheetCommandBarCheckItem30, Me.spreadsheetCommandBarCheckItem31, Me.barButtonGroup3, Me.spreadsheetCommandBarSubItem24, Me.spreadsheetCommandBarButtonItem97, Me.spreadsheetCommandBarButtonItem98, Me.spreadsheetCommandBarButtonItem99, Me.spreadsheetCommandBarButtonItem100, Me.spreadsheetCommandBarButtonItem101, Me.spreadsheetCommandBarButtonItem102, Me.spreadsheetCommandBarButtonItem103, Me.spreadsheetCommandBarButtonItem104, Me.spreadsheetCommandBarButtonItem105, Me.spreadsheetCommandBarButtonItem106, Me.spreadsheetCommandBarButtonItem107, Me.spreadsheetCommandBarButtonItem108, Me.spreadsheetCommandBarButtonItem109, Me.changeBorderLineColorItem1, Me.changeBorderLineStyleItem1, Me.barButtonGroup4, Me.changeCellFillColorItem1, Me.changeFontColorItem1, Me.barButtonGroup5, Me.spreadsheetCommandBarCheckItem32, Me.spreadsheetCommandBarCheckItem33, Me.spreadsheetCommandBarCheckItem34, Me.barButtonGroup6, Me.spreadsheetCommandBarCheckItem35, Me.spreadsheetCommandBarCheckItem36, Me.spreadsheetCommandBarCheckItem37, Me.barButtonGroup7, Me.spreadsheetCommandBarButtonItem110, Me.spreadsheetCommandBarButtonItem111, Me.spreadsheetCommandBarCheckItem38, Me.spreadsheetCommandBarSubItem25, Me.spreadsheetCommandBarCheckItem39, Me.spreadsheetCommandBarButtonItem112, Me.spreadsheetCommandBarButtonItem113, Me.spreadsheetCommandBarButtonItem114, Me.barButtonGroup8, Me.changeNumberFormatItem1, Me.barButtonGroup9, Me.spreadsheetCommandBarSubItem26, Me.spreadsheetCommandBarButtonItem115, Me.spreadsheetCommandBarButtonItem116, Me.spreadsheetCommandBarButtonItem117, Me.spreadsheetCommandBarButtonItem118, Me.spreadsheetCommandBarButtonItem119, Me.spreadsheetCommandBarButtonItem120, Me.spreadsheetCommandBarButtonItem121, Me.barButtonGroup10, Me.spreadsheetCommandBarButtonItem122, Me.spreadsheetCommandBarButtonItem123, Me.spreadsheetCommandBarSubItem27, Me.spreadsheetCommandBarButtonItem124, Me.spreadsheetCommandBarButtonItem125, Me.spreadsheetCommandBarButtonItem126, Me.spreadsheetCommandBarButtonItem127, Me.spreadsheetCommandBarButtonItem128, Me.spreadsheetCommandBarButtonItem129, Me.spreadsheetCommandBarButtonItem130, Me.spreadsheetCommandBarSubItem28, Me.spreadsheetCommandBarButtonItem131, Me.spreadsheetCommandBarButtonItem132, Me.spreadsheetCommandBarButtonItem133, Me.spreadsheetCommandBarButtonItem134, Me.spreadsheetCommandBarButtonItem135, Me.spreadsheetCommandBarButtonItem136, Me.spreadsheetCommandBarSubItem29, Me.spreadsheetCommandBarButtonGalleryDropDownItem20, Me.spreadsheetCommandBarButtonGalleryDropDownItem21, Me.spreadsheetCommandBarButtonGalleryDropDownItem22, Me.spreadsheetCommandBarButtonItem137, Me.spreadsheetCommandBarButtonItem138, Me.spreadsheetCommandBarSubItem30, Me.galleryFormatAsTableItem1, Me.galleryChangeStyleItem1, Me.spreadsheetCommandBarSubItem31, Me.spreadsheetCommandBarButtonItem139, Me.spreadsheetCommandBarButtonItem140, Me.spreadsheetCommandBarButtonItem141, Me.spreadsheetCommandBarSubItem32, Me.spreadsheetCommandBarButtonItem142, Me.spreadsheetCommandBarButtonItem143, Me.spreadsheetCommandBarButtonItem144, Me.spreadsheetCommandBarSubItem33, Me.spreadsheetCommandBarButtonItem145, Me.spreadsheetCommandBarButtonItem146, Me.spreadsheetCommandBarButtonItem147, Me.spreadsheetCommandBarButtonItem148, Me.spreadsheetCommandBarButtonItem149, Me.spreadsheetCommandBarButtonItem150, Me.spreadsheetCommandBarButtonItem151, Me.spreadsheetCommandBarButtonItem152, Me.spreadsheetCommandBarButtonItem153, Me.spreadsheetCommandBarButtonItem154, Me.spreadsheetCommandBarButtonItem155, Me.spreadsheetCommandBarSubItem34, Me.spreadsheetCommandBarButtonItem156, Me.spreadsheetCommandBarButtonItem157, Me.changeSheetTabColorItem1, Me.spreadsheetCommandBarCheckItem40, Me.spreadsheetCommandBarButtonItem159, Me.spreadsheetCommandBarSubItem35, Me.spreadsheetCommandBarSubItem36, Me.spreadsheetCommandBarButtonItem165, Me.spreadsheetCommandBarButtonItem166, Me.spreadsheetCommandBarButtonItem167, Me.spreadsheetCommandBarButtonItem168, Me.spreadsheetCommandBarSubItem37, Me.spreadsheetCommandBarButtonItem169, Me.spreadsheetCommandBarButtonItem170, Me.spreadsheetCommandBarButtonItem171, Me.spreadsheetCommandBarButtonItem172, Me.spreadsheetCommandBarButtonItem173, Me.spreadsheetCommandBarButtonItem174, Me.spreadsheetCommandBarSubItem38, Me.spreadsheetCommandBarSubItem39, Me.spreadsheetCommandBarButtonItem179, Me.spreadsheetCommandBarButtonItem180, Me.spreadsheetCommandBarButtonItem181, Me.spreadsheetCommandBarButtonItem182, Me.spreadsheetCommandBarButtonItem183, Me.spreadsheetCommandBarButtonItem184, Me.spreadsheetCommandBarButtonItem185, Me.spreadsheetCommandBarButtonItem186, Me.spreadsheetCommandBarButtonItem187, Me.spreadsheetCommandBarButtonItem188, Me.spreadsheetCommandBarButtonItem189, Me.spreadsheetCommandBarButtonItem190, Me.spreadsheetCommandBarButtonItem191, Me.spreadsheetCommandBarButtonItem192, Me.spreadsheetCommandBarButtonItem193, Me.spreadsheetCommandBarButtonItem194, Me.spreadsheetCommandBarButtonItem195})
             Me.ribbonControl.LargeImages = Me.ribbonImageCollectionLarge
             Me.ribbonControl.Location = New System.Drawing.Point(0, 0)
             Me.ribbonControl.MaxItemId = 387
             Me.ribbonControl.Name = "ribbonControl"
-            Me.ribbonControl.PageCategories.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageCategory() { Me.pivotTableToolsRibbonPageCategory1, Me.pictureToolsRibbonPageCategory1, Me.drawingToolsRibbonPageCategory1, Me.tableToolsRibbonPageCategory1, Me.chartToolsRibbonPageCategory1})
+            Me.ribbonControl.PageCategories.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageCategory() {Me.pivotTableToolsRibbonPageCategory1, Me.pictureToolsRibbonPageCategory1, Me.drawingToolsRibbonPageCategory1, Me.tableToolsRibbonPageCategory1, Me.chartToolsRibbonPageCategory1})
             Me.ribbonControl.PageHeaderItemLinks.Add(Me.iAbout)
-            Me.ribbonControl.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() { Me.fileRibbonPage1, Me.homeRibbonPage1, Me.insertRibbonPage1, Me.pageLayoutRibbonPage1, Me.formulasRibbonPage1, Me.dataRibbonPage1, Me.reviewRibbonPage1, Me.viewRibbonPage1})
+            Me.ribbonControl.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.fileRibbonPage1, Me.homeRibbonPage1, Me.insertRibbonPage1, Me.pageLayoutRibbonPage1, Me.formulasRibbonPage1, Me.dataRibbonPage1, Me.reviewRibbonPage1, Me.viewRibbonPage1})
             Me.ribbonControl.QuickToolbarItemLinks.Add(Me.iHelp)
-            Me.ribbonControl.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() { Me.repositoryItemTextEdit1, Me.repositoryItemFontEdit1, Me.repositoryItemSpreadsheetFontSizeEdit1, Me.repositoryItemPopupGalleryEdit1})
+            Me.ribbonControl.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.repositoryItemTextEdit1, Me.repositoryItemFontEdit1, Me.repositoryItemSpreadsheetFontSizeEdit1, Me.repositoryItemPopupGalleryEdit1})
             Me.ribbonControl.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2010
             Me.ribbonControl.Size = New System.Drawing.Size(1100, 143)
             ' 
@@ -805,7 +807,7 @@
             Me.buttonEdit.Location = New System.Drawing.Point(3, 5)
             Me.buttonEdit.MenuManager = Me.ribbonControl
             Me.buttonEdit.Name = "buttonEdit"
-            Me.buttonEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() { New DevExpress.XtraEditors.Controls.EditorButton()})
+            Me.buttonEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
             Me.buttonEdit.Size = New System.Drawing.Size(100, 20)
             Me.buttonEdit.TabIndex = 0
             ' 
@@ -851,7 +853,7 @@
             ' 
             ' ribbonImageCollection
             ' 
-            Me.ribbonImageCollection.ImageStream = (DirectCast(resources.GetObject("ribbonImageCollection.ImageStream"), DevExpress.Utils.ImageCollectionStreamer))
+            Me.ribbonImageCollection.ImageStream = CType((resources.GetObject("ribbonImageCollection.ImageStream")), DevExpress.Utils.ImageCollectionStreamer)
             Me.ribbonImageCollection.Images.SetKeyName(0, "Ribbon_Exit_16x16.png")
             Me.ribbonImageCollection.Images.SetKeyName(1, "Ribbon_Content_16x16.png")
             Me.ribbonImageCollection.Images.SetKeyName(2, "Ribbon_Info_16x16.png")
@@ -911,7 +913,7 @@
             ' ribbonImageCollectionLarge
             ' 
             Me.ribbonImageCollectionLarge.ImageSize = New System.Drawing.Size(32, 32)
-            Me.ribbonImageCollectionLarge.ImageStream = (DirectCast(resources.GetObject("ribbonImageCollectionLarge.ImageStream"), DevExpress.Utils.ImageCollectionStreamer))
+            Me.ribbonImageCollectionLarge.ImageStream = CType((resources.GetObject("ribbonImageCollectionLarge.ImageStream")), DevExpress.Utils.ImageCollectionStreamer)
             Me.ribbonImageCollectionLarge.Images.SetKeyName(0, "Ribbon_Exit_32x32.png")
             Me.ribbonImageCollectionLarge.Images.SetKeyName(1, "Ribbon_Content_32x32.png")
             Me.ribbonImageCollectionLarge.Images.SetKeyName(2, "Ribbon_Info_32x32.png")
@@ -965,8 +967,8 @@
             Me.spreadsheetNameBoxControl.EditValue = "A1"
             Me.spreadsheetNameBoxControl.Location = New System.Drawing.Point(0, 0)
             Me.spreadsheetNameBoxControl.Name = "spreadsheetNameBoxControl"
-            Me.spreadsheetNameBoxControl.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() { New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-            Me.spreadsheetNameBoxControl.ReadOnly = DevExpress.Utils.DefaultBoolean.Default
+            Me.spreadsheetNameBoxControl.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+            Me.spreadsheetNameBoxControl.[ReadOnly] = DevExpress.Utils.DefaultBoolean.[Default]
             Me.spreadsheetNameBoxControl.Size = New System.Drawing.Size(145, 20)
             Me.spreadsheetNameBoxControl.SpreadsheetControl = Me.spreadsheetControl
             Me.spreadsheetNameBoxControl.TabIndex = 0
@@ -1321,7 +1323,7 @@
             ' 
             ' pivotTableDesignRibbonPage1
             ' 
-            Me.pivotTableDesignRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() { Me.pivotTableDesignLayoutRibbonPageGroup1, Me.pivotTableDesignPivotTableStyleOptionsRibbonPageGroup1, Me.pivotTableDesignPivotTableStylesRibbonPageGroup1})
+            Me.pivotTableDesignRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.pivotTableDesignLayoutRibbonPageGroup1, Me.pivotTableDesignPivotTableStyleOptionsRibbonPageGroup1, Me.pivotTableDesignPivotTableStylesRibbonPageGroup1})
             Me.pivotTableDesignRibbonPage1.Name = "pivotTableDesignRibbonPage1"
             Me.pivotTableDesignRibbonPage1.Visible = False
             ' 
@@ -1329,18 +1331,14 @@
             ' 
             Me.pivotTableToolsRibbonPageCategory1.Control = Me.spreadsheetControl
             Me.pivotTableToolsRibbonPageCategory1.Name = "pivotTableToolsRibbonPageCategory1"
-            Me.pivotTableToolsRibbonPageCategory1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() { Me.pivotTableAnalyzeRibbonPage1, Me.pivotTableDesignRibbonPage1})
+            Me.pivotTableToolsRibbonPageCategory1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.pivotTableAnalyzeRibbonPage1, Me.pivotTableDesignRibbonPage1})
             Me.pivotTableToolsRibbonPageCategory1.Visible = False
             ' 
             ' spreadsheetCommandBarSubItem1
             ' 
             Me.spreadsheetCommandBarSubItem1.CommandName = "PivotTableLayoutSubtotalsGroup"
             Me.spreadsheetCommandBarSubItem1.Id = 62
-            Me.spreadsheetCommandBarSubItem1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem2), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem3) _
-            })
+            Me.spreadsheetCommandBarSubItem1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem2), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem3)})
             Me.spreadsheetCommandBarSubItem1.Name = "spreadsheetCommandBarSubItem1"
             ' 
             ' spreadsheetCommandBarButtonItem1
@@ -1368,12 +1366,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem2.CommandName = "PivotTableLayoutGrandTotalsGroup"
             Me.spreadsheetCommandBarSubItem2.Id = 66
-            Me.spreadsheetCommandBarSubItem2.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem4), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem5), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem6), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem7) _
-            })
+            Me.spreadsheetCommandBarSubItem2.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem4), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem5), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem6), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem7)})
             Me.spreadsheetCommandBarSubItem2.Name = "spreadsheetCommandBarSubItem2"
             ' 
             ' spreadsheetCommandBarButtonItem4
@@ -1408,13 +1401,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem3.CommandName = "PivotTableLayoutReportLayoutGroup"
             Me.spreadsheetCommandBarSubItem3.Id = 71
-            Me.spreadsheetCommandBarSubItem3.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem8), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem9), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem10), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem11), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem12) _
-            })
+            Me.spreadsheetCommandBarSubItem3.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem8), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem9), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem10), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem11), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem12)})
             Me.spreadsheetCommandBarSubItem3.Name = "spreadsheetCommandBarSubItem3"
             ' 
             ' spreadsheetCommandBarButtonItem8
@@ -1456,10 +1443,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem4.CommandName = "PivotTableLayoutBlankRowsGroup"
             Me.spreadsheetCommandBarSubItem4.Id = 77
-            Me.spreadsheetCommandBarSubItem4.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem13), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem14) _
-            })
+            Me.spreadsheetCommandBarSubItem4.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem13), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem14)})
             Me.spreadsheetCommandBarSubItem4.Name = "spreadsheetCommandBarSubItem4"
             ' 
             ' spreadsheetCommandBarButtonItem13
@@ -1539,7 +1523,7 @@
             ' 
             ' pivotTableAnalyzeRibbonPage1
             ' 
-            Me.pivotTableAnalyzeRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() { Me.pivotTableAnalyzePivotTableRibbonPageGroup1, Me.pivotTableAnalyzeActiveFieldRibbonPageGroup1, Me.pivotTableAnalyzeGroupRibbonPageGroup1, Me.pivotTableAnalyzeDataRibbonPageGroup1, Me.pivotTableAnalyzeActionsRibbonPageGroup1, Me.pivotTableAnalyzeCalculationsRibbonPageGroup1, Me.pivotTableAnalyzeShowRibbonPageGroup1})
+            Me.pivotTableAnalyzeRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.pivotTableAnalyzePivotTableRibbonPageGroup1, Me.pivotTableAnalyzeActiveFieldRibbonPageGroup1, Me.pivotTableAnalyzeGroupRibbonPageGroup1, Me.pivotTableAnalyzeDataRibbonPageGroup1, Me.pivotTableAnalyzeActionsRibbonPageGroup1, Me.pivotTableAnalyzeCalculationsRibbonPageGroup1, Me.pivotTableAnalyzeShowRibbonPageGroup1})
             Me.pivotTableAnalyzeRibbonPage1.Name = "pivotTableAnalyzeRibbonPage1"
             Me.pivotTableAnalyzeRibbonPage1.Visible = False
             ' 
@@ -1614,10 +1598,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem5.CommandName = "PivotTableDataRefreshGroup"
             Me.spreadsheetCommandBarSubItem5.Id = 92
-            Me.spreadsheetCommandBarSubItem5.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem22), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem23) _
-            })
+            Me.spreadsheetCommandBarSubItem5.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem22), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem23)})
             Me.spreadsheetCommandBarSubItem5.Name = "spreadsheetCommandBarSubItem5"
             ' 
             ' spreadsheetCommandBarButtonItem22
@@ -1649,10 +1630,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem6.CommandName = "PivotTableActionsClearGroup"
             Me.spreadsheetCommandBarSubItem6.Id = 96
-            Me.spreadsheetCommandBarSubItem6.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem25), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem26) _
-            })
+            Me.spreadsheetCommandBarSubItem6.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem25), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem26)})
             Me.spreadsheetCommandBarSubItem6.Name = "spreadsheetCommandBarSubItem6"
             ' 
             ' spreadsheetCommandBarButtonItem25
@@ -1671,11 +1649,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem7.CommandName = "PivotTableActionsSelectGroup"
             Me.spreadsheetCommandBarSubItem7.Id = 99
-            Me.spreadsheetCommandBarSubItem7.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem27), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem28), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem29) _
-            })
+            Me.spreadsheetCommandBarSubItem7.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem27), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem28), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem29)})
             Me.spreadsheetCommandBarSubItem7.Name = "spreadsheetCommandBarSubItem7"
             ' 
             ' spreadsheetCommandBarButtonItem27
@@ -1711,12 +1685,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem8.CommandName = "PivotTableCalculationFieldsItemsSetsGroup"
             Me.spreadsheetCommandBarSubItem8.Id = 104
-            Me.spreadsheetCommandBarSubItem8.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem31), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem32), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem33), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem34) _
-            })
+            Me.spreadsheetCommandBarSubItem8.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem31), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem32), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem33), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem34)})
             Me.spreadsheetCommandBarSubItem8.Name = "spreadsheetCommandBarSubItem8"
             ' 
             ' spreadsheetCommandBarButtonItem31
@@ -1776,7 +1745,7 @@
             ' 
             ' pictureFormatRibbonPage1
             ' 
-            Me.pictureFormatRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() { Me.pictureFormatArrangeRibbonPageGroup1})
+            Me.pictureFormatRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.pictureFormatArrangeRibbonPageGroup1})
             Me.pictureFormatRibbonPage1.Name = "pictureFormatRibbonPage1"
             Me.pictureFormatRibbonPage1.Visible = False
             ' 
@@ -1784,17 +1753,14 @@
             ' 
             Me.pictureToolsRibbonPageCategory1.Control = Me.spreadsheetControl
             Me.pictureToolsRibbonPageCategory1.Name = "pictureToolsRibbonPageCategory1"
-            Me.pictureToolsRibbonPageCategory1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() { Me.pictureFormatRibbonPage1})
+            Me.pictureToolsRibbonPageCategory1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.pictureFormatRibbonPage1})
             Me.pictureToolsRibbonPageCategory1.Visible = False
             ' 
             ' spreadsheetCommandBarSubItem9
             ' 
             Me.spreadsheetCommandBarSubItem9.CommandName = "ArrangeBringForwardCommandGroup"
             Me.spreadsheetCommandBarSubItem9.Id = 112
-            Me.spreadsheetCommandBarSubItem9.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem35), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem36) _
-            })
+            Me.spreadsheetCommandBarSubItem9.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem35), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem36)})
             Me.spreadsheetCommandBarSubItem9.Name = "spreadsheetCommandBarSubItem9"
             ' 
             ' spreadsheetCommandBarButtonItem35
@@ -1813,10 +1779,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem10.CommandName = "ArrangeSendBackwardCommandGroup"
             Me.spreadsheetCommandBarSubItem10.Id = 115
-            Me.spreadsheetCommandBarSubItem10.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem37), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem38) _
-            })
+            Me.spreadsheetCommandBarSubItem10.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem37), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem38)})
             Me.spreadsheetCommandBarSubItem10.Name = "spreadsheetCommandBarSubItem10"
             ' 
             ' spreadsheetCommandBarButtonItem37
@@ -1839,7 +1802,7 @@
             ' 
             ' drawingFormatRibbonPage1
             ' 
-            Me.drawingFormatRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() { Me.drawingFormatArrangeRibbonPageGroup1})
+            Me.drawingFormatRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.drawingFormatArrangeRibbonPageGroup1})
             Me.drawingFormatRibbonPage1.Name = "drawingFormatRibbonPage1"
             Me.drawingFormatRibbonPage1.Visible = False
             ' 
@@ -1847,7 +1810,7 @@
             ' 
             Me.drawingToolsRibbonPageCategory1.Control = Me.spreadsheetControl
             Me.drawingToolsRibbonPageCategory1.Name = "drawingToolsRibbonPageCategory1"
-            Me.drawingToolsRibbonPageCategory1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() { Me.drawingFormatRibbonPage1})
+            Me.drawingToolsRibbonPageCategory1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.drawingFormatRibbonPage1})
             Me.drawingToolsRibbonPageCategory1.Visible = False
             ' 
             ' tablePropertiesRibbonPageGroup1
@@ -1858,7 +1821,7 @@
             ' 
             ' tableToolsDesignRibbonPage1
             ' 
-            Me.tableToolsDesignRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() { Me.tablePropertiesRibbonPageGroup1, Me.tableToolsRibbonPageGroup1, Me.tableStyleOptionsRibbonPageGroup1, Me.tableStylesRibbonPageGroup1})
+            Me.tableToolsDesignRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.tablePropertiesRibbonPageGroup1, Me.tableToolsRibbonPageGroup1, Me.tableStyleOptionsRibbonPageGroup1, Me.tableStylesRibbonPageGroup1})
             Me.tableToolsDesignRibbonPage1.Name = "tableToolsDesignRibbonPage1"
             Me.tableToolsDesignRibbonPage1.Visible = False
             ' 
@@ -1866,7 +1829,7 @@
             ' 
             Me.tableToolsRibbonPageCategory1.Control = Me.spreadsheetControl
             Me.tableToolsRibbonPageCategory1.Name = "tableToolsRibbonPageCategory1"
-            Me.tableToolsRibbonPageCategory1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() { Me.tableToolsDesignRibbonPage1})
+            Me.tableToolsRibbonPageCategory1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.tableToolsDesignRibbonPage1})
             Me.tableToolsRibbonPageCategory1.Visible = False
             ' 
             ' barStaticItem1
@@ -1978,7 +1941,7 @@
             ' 
             ' chartsFormatRibbonPage1
             ' 
-            Me.chartsFormatRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() { Me.chartsFormatArrangeRibbonPageGroup1})
+            Me.chartsFormatRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.chartsFormatArrangeRibbonPageGroup1})
             Me.chartsFormatRibbonPage1.Name = "chartsFormatRibbonPage1"
             Me.chartsFormatRibbonPage1.Visible = False
             ' 
@@ -1986,7 +1949,7 @@
             ' 
             Me.chartToolsRibbonPageCategory1.Control = Me.spreadsheetControl
             Me.chartToolsRibbonPageCategory1.Name = "chartToolsRibbonPageCategory1"
-            Me.chartToolsRibbonPageCategory1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() { Me.chartsDesignRibbonPage1, Me.chartsLayoutRibbonPage1, Me.chartsFormatRibbonPage1})
+            Me.chartToolsRibbonPageCategory1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.chartsDesignRibbonPage1, Me.chartsLayoutRibbonPage1, Me.chartsFormatRibbonPage1})
             Me.chartToolsRibbonPageCategory1.Visible = False
             ' 
             ' chartsLayoutAxesRibbonPageGroup1
@@ -1997,7 +1960,7 @@
             ' 
             ' chartsLayoutRibbonPage1
             ' 
-            Me.chartsLayoutRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() { Me.chartsLayoutAxesRibbonPageGroup1, Me.chartsLayoutLabelsRibbonPageGroup1, Me.chartsLayoutAnalysisRibbonPageGroup1})
+            Me.chartsLayoutRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.chartsLayoutAxesRibbonPageGroup1, Me.chartsLayoutLabelsRibbonPageGroup1, Me.chartsLayoutAnalysisRibbonPageGroup1})
             Me.chartsLayoutRibbonPage1.Name = "chartsLayoutRibbonPage1"
             Me.chartsLayoutRibbonPage1.Visible = False
             ' 
@@ -2005,10 +1968,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem11.CommandName = "ChartAxesCommandGroup"
             Me.spreadsheetCommandBarSubItem11.Id = 128
-            Me.spreadsheetCommandBarSubItem11.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem2) _
-            })
+            Me.spreadsheetCommandBarSubItem11.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem2)})
             Me.spreadsheetCommandBarSubItem11.Name = "spreadsheetCommandBarSubItem11"
             ' 
             ' spreadsheetCommandBarButtonGalleryDropDownItem1
@@ -2035,8 +1995,8 @@
             spreadsheetCommandGalleryItem204.CommandName = "ChartPrimaryHorizontalAxisScaleMillions"
             spreadsheetCommandGalleryItem205.CommandName = "ChartPrimaryHorizontalAxisScaleBillions"
             spreadsheetCommandGalleryItem206.CommandName = "ChartPrimaryHorizontalAxisScaleLogarithm"
-            spreadsheetCommandGalleryItemGroup41.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem198, spreadsheetCommandGalleryItem199, spreadsheetCommandGalleryItem200, spreadsheetCommandGalleryItem201, spreadsheetCommandGalleryItem202, spreadsheetCommandGalleryItem203, spreadsheetCommandGalleryItem204, spreadsheetCommandGalleryItem205, spreadsheetCommandGalleryItem206})
-            Me.commandBarGalleryDropDown1.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup41})
+            spreadsheetCommandGalleryItemGroup41.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem198, spreadsheetCommandGalleryItem199, spreadsheetCommandGalleryItem200, spreadsheetCommandGalleryItem201, spreadsheetCommandGalleryItem202, spreadsheetCommandGalleryItem203, spreadsheetCommandGalleryItem204, spreadsheetCommandGalleryItem205, spreadsheetCommandGalleryItem206})
+            Me.commandBarGalleryDropDown1.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup41})
             Me.commandBarGalleryDropDown1.Gallery.ItemImageLayout = DevExpress.Utils.Drawing.ImageLayoutMode.MiddleLeft
             Me.commandBarGalleryDropDown1.Gallery.ItemImageLocation = DevExpress.Utils.Locations.Left
             Me.commandBarGalleryDropDown1.Gallery.RowCount = 9
@@ -2069,8 +2029,8 @@
             spreadsheetCommandGalleryItem213.CommandName = "ChartPrimaryVerticalAxisScaleMillions"
             spreadsheetCommandGalleryItem214.CommandName = "ChartPrimaryVerticalAxisScaleBillions"
             spreadsheetCommandGalleryItem215.CommandName = "ChartPrimaryVerticalAxisScaleLogarithm"
-            spreadsheetCommandGalleryItemGroup42.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem207, spreadsheetCommandGalleryItem208, spreadsheetCommandGalleryItem209, spreadsheetCommandGalleryItem210, spreadsheetCommandGalleryItem211, spreadsheetCommandGalleryItem212, spreadsheetCommandGalleryItem213, spreadsheetCommandGalleryItem214, spreadsheetCommandGalleryItem215})
-            Me.commandBarGalleryDropDown2.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup42})
+            spreadsheetCommandGalleryItemGroup42.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem207, spreadsheetCommandGalleryItem208, spreadsheetCommandGalleryItem209, spreadsheetCommandGalleryItem210, spreadsheetCommandGalleryItem211, spreadsheetCommandGalleryItem212, spreadsheetCommandGalleryItem213, spreadsheetCommandGalleryItem214, spreadsheetCommandGalleryItem215})
+            Me.commandBarGalleryDropDown2.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup42})
             Me.commandBarGalleryDropDown2.Gallery.ItemImageLayout = DevExpress.Utils.Drawing.ImageLayoutMode.MiddleLeft
             Me.commandBarGalleryDropDown2.Gallery.ItemImageLocation = DevExpress.Utils.Locations.Left
             Me.commandBarGalleryDropDown2.Gallery.RowCount = 9
@@ -2083,10 +2043,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem12.CommandName = "ChartGridlinesCommandGroup"
             Me.spreadsheetCommandBarSubItem12.Id = 131
-            Me.spreadsheetCommandBarSubItem12.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem3), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem4) _
-            })
+            Me.spreadsheetCommandBarSubItem12.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem3), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem4)})
             Me.spreadsheetCommandBarSubItem12.Name = "spreadsheetCommandBarSubItem12"
             ' 
             ' spreadsheetCommandBarButtonGalleryDropDownItem3
@@ -2108,8 +2065,8 @@
             spreadsheetCommandGalleryItem217.CommandName = "ChartPrimaryHorizontalGridlinesMajor"
             spreadsheetCommandGalleryItem218.CommandName = "ChartPrimaryHorizontalGridlinesMinor"
             spreadsheetCommandGalleryItem219.CommandName = "ChartPrimaryHorizontalGridlinesMajorAndMinor"
-            spreadsheetCommandGalleryItemGroup43.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem216, spreadsheetCommandGalleryItem217, spreadsheetCommandGalleryItem218, spreadsheetCommandGalleryItem219})
-            Me.commandBarGalleryDropDown3.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup43})
+            spreadsheetCommandGalleryItemGroup43.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem216, spreadsheetCommandGalleryItem217, spreadsheetCommandGalleryItem218, spreadsheetCommandGalleryItem219})
+            Me.commandBarGalleryDropDown3.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup43})
             Me.commandBarGalleryDropDown3.Gallery.ItemImageLayout = DevExpress.Utils.Drawing.ImageLayoutMode.MiddleLeft
             Me.commandBarGalleryDropDown3.Gallery.ItemImageLocation = DevExpress.Utils.Locations.Left
             Me.commandBarGalleryDropDown3.Gallery.RowCount = 4
@@ -2137,8 +2094,8 @@
             spreadsheetCommandGalleryItem221.CommandName = "ChartPrimaryVerticalGridlinesMajor"
             spreadsheetCommandGalleryItem222.CommandName = "ChartPrimaryVerticalGridlinesMinor"
             spreadsheetCommandGalleryItem223.CommandName = "ChartPrimaryVerticalGridlinesMajorAndMinor"
-            spreadsheetCommandGalleryItemGroup44.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem220, spreadsheetCommandGalleryItem221, spreadsheetCommandGalleryItem222, spreadsheetCommandGalleryItem223})
-            Me.commandBarGalleryDropDown4.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup44})
+            spreadsheetCommandGalleryItemGroup44.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem220, spreadsheetCommandGalleryItem221, spreadsheetCommandGalleryItem222, spreadsheetCommandGalleryItem223})
+            Me.commandBarGalleryDropDown4.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup44})
             Me.commandBarGalleryDropDown4.Gallery.ItemImageLayout = DevExpress.Utils.Drawing.ImageLayoutMode.MiddleLeft
             Me.commandBarGalleryDropDown4.Gallery.ItemImageLocation = DevExpress.Utils.Locations.Left
             Me.commandBarGalleryDropDown4.Gallery.RowCount = 4
@@ -2173,8 +2130,8 @@
             spreadsheetCommandGalleryItem224.CommandName = "ChartTitleNone"
             spreadsheetCommandGalleryItem225.CommandName = "ChartTitleCenteredOverlay"
             spreadsheetCommandGalleryItem226.CommandName = "ChartTitleAbove"
-            spreadsheetCommandGalleryItemGroup45.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem224, spreadsheetCommandGalleryItem225, spreadsheetCommandGalleryItem226})
-            Me.commandBarGalleryDropDown5.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup45})
+            spreadsheetCommandGalleryItemGroup45.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem224, spreadsheetCommandGalleryItem225, spreadsheetCommandGalleryItem226})
+            Me.commandBarGalleryDropDown5.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup45})
             Me.commandBarGalleryDropDown5.Gallery.ItemImageLayout = DevExpress.Utils.Drawing.ImageLayoutMode.MiddleLeft
             Me.commandBarGalleryDropDown5.Gallery.ItemImageLocation = DevExpress.Utils.Locations.Left
             Me.commandBarGalleryDropDown5.Gallery.ShowGroupCaption = False
@@ -2186,10 +2143,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem13.CommandName = "ChartAxisTitlesCommandGroup"
             Me.spreadsheetCommandBarSubItem13.Id = 135
-            Me.spreadsheetCommandBarSubItem13.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem6), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem7) _
-            })
+            Me.spreadsheetCommandBarSubItem13.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem6), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem7)})
             Me.spreadsheetCommandBarSubItem13.Name = "spreadsheetCommandBarSubItem13"
             ' 
             ' spreadsheetCommandBarButtonGalleryDropDownItem6
@@ -2209,8 +2163,8 @@
             spreadsheetCommandGalleryItemGroup46.CommandName = "ChartPrimaryHorizontalAxisTitleCommandGroup"
             spreadsheetCommandGalleryItem227.CommandName = "ChartPrimaryHorizontalAxisTitleNone"
             spreadsheetCommandGalleryItem228.CommandName = "ChartPrimaryHorizontalAxisTitleBelow"
-            spreadsheetCommandGalleryItemGroup46.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem227, spreadsheetCommandGalleryItem228})
-            Me.commandBarGalleryDropDown6.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup46})
+            spreadsheetCommandGalleryItemGroup46.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem227, spreadsheetCommandGalleryItem228})
+            Me.commandBarGalleryDropDown6.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup46})
             Me.commandBarGalleryDropDown6.Gallery.ItemImageLayout = DevExpress.Utils.Drawing.ImageLayoutMode.MiddleLeft
             Me.commandBarGalleryDropDown6.Gallery.ItemImageLocation = DevExpress.Utils.Locations.Left
             Me.commandBarGalleryDropDown6.Gallery.RowCount = 2
@@ -2238,8 +2192,8 @@
             spreadsheetCommandGalleryItem230.CommandName = "ChartPrimaryVerticalAxisTitleRotated"
             spreadsheetCommandGalleryItem231.CommandName = "ChartPrimaryVerticalAxisTitleVertical"
             spreadsheetCommandGalleryItem232.CommandName = "ChartPrimaryVerticalAxisTitleHorizontal"
-            spreadsheetCommandGalleryItemGroup47.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem229, spreadsheetCommandGalleryItem230, spreadsheetCommandGalleryItem231, spreadsheetCommandGalleryItem232})
-            Me.commandBarGalleryDropDown7.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup47})
+            spreadsheetCommandGalleryItemGroup47.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem229, spreadsheetCommandGalleryItem230, spreadsheetCommandGalleryItem231, spreadsheetCommandGalleryItem232})
+            Me.commandBarGalleryDropDown7.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup47})
             Me.commandBarGalleryDropDown7.Gallery.ItemImageLayout = DevExpress.Utils.Drawing.ImageLayoutMode.MiddleLeft
             Me.commandBarGalleryDropDown7.Gallery.ItemImageLocation = DevExpress.Utils.Locations.Left
             Me.commandBarGalleryDropDown7.Gallery.RowCount = 4
@@ -2270,8 +2224,8 @@
             spreadsheetCommandGalleryItem237.CommandName = "ChartLegendAtBottom"
             spreadsheetCommandGalleryItem238.CommandName = "ChartLegendOverlayAtRight"
             spreadsheetCommandGalleryItem239.CommandName = "ChartLegendOverlayAtLeft"
-            spreadsheetCommandGalleryItemGroup48.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem233, spreadsheetCommandGalleryItem234, spreadsheetCommandGalleryItem235, spreadsheetCommandGalleryItem236, spreadsheetCommandGalleryItem237, spreadsheetCommandGalleryItem238, spreadsheetCommandGalleryItem239})
-            Me.commandBarGalleryDropDown8.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup48})
+            spreadsheetCommandGalleryItemGroup48.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem233, spreadsheetCommandGalleryItem234, spreadsheetCommandGalleryItem235, spreadsheetCommandGalleryItem236, spreadsheetCommandGalleryItem237, spreadsheetCommandGalleryItem238, spreadsheetCommandGalleryItem239})
+            Me.commandBarGalleryDropDown8.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup48})
             Me.commandBarGalleryDropDown8.Gallery.ItemImageLayout = DevExpress.Utils.Drawing.ImageLayoutMode.MiddleLeft
             Me.commandBarGalleryDropDown8.Gallery.ItemImageLocation = DevExpress.Utils.Locations.Left
             Me.commandBarGalleryDropDown8.Gallery.RowCount = 7
@@ -2306,8 +2260,8 @@
             spreadsheetCommandGalleryItem248.CommandName = "ChartDataLabelsRight"
             spreadsheetCommandGalleryItem249.CommandName = "ChartDataLabelsAbove"
             spreadsheetCommandGalleryItem250.CommandName = "ChartDataLabelsBelow"
-            spreadsheetCommandGalleryItemGroup49.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem240, spreadsheetCommandGalleryItem241, spreadsheetCommandGalleryItem242, spreadsheetCommandGalleryItem243, spreadsheetCommandGalleryItem244, spreadsheetCommandGalleryItem245, spreadsheetCommandGalleryItem246, spreadsheetCommandGalleryItem247, spreadsheetCommandGalleryItem248, spreadsheetCommandGalleryItem249, spreadsheetCommandGalleryItem250})
-            Me.commandBarGalleryDropDown9.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup49})
+            spreadsheetCommandGalleryItemGroup49.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem240, spreadsheetCommandGalleryItem241, spreadsheetCommandGalleryItem242, spreadsheetCommandGalleryItem243, spreadsheetCommandGalleryItem244, spreadsheetCommandGalleryItem245, spreadsheetCommandGalleryItem246, spreadsheetCommandGalleryItem247, spreadsheetCommandGalleryItem248, spreadsheetCommandGalleryItem249, spreadsheetCommandGalleryItem250})
+            Me.commandBarGalleryDropDown9.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup49})
             Me.commandBarGalleryDropDown9.Gallery.ItemImageLayout = DevExpress.Utils.Drawing.ImageLayoutMode.MiddleLeft
             Me.commandBarGalleryDropDown9.Gallery.ItemImageLocation = DevExpress.Utils.Locations.Left
             Me.commandBarGalleryDropDown9.Gallery.RowCount = 11
@@ -2343,8 +2297,8 @@
             spreadsheetCommandGalleryItem253.CommandName = "ChartShowHighLowLines"
             spreadsheetCommandGalleryItem254.CommandName = "ChartShowDropLinesAndHighLowLines"
             spreadsheetCommandGalleryItem255.CommandName = "ChartShowSeriesLines"
-            spreadsheetCommandGalleryItemGroup50.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem251, spreadsheetCommandGalleryItem252, spreadsheetCommandGalleryItem253, spreadsheetCommandGalleryItem254, spreadsheetCommandGalleryItem255})
-            Me.commandBarGalleryDropDown10.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup50})
+            spreadsheetCommandGalleryItemGroup50.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem251, spreadsheetCommandGalleryItem252, spreadsheetCommandGalleryItem253, spreadsheetCommandGalleryItem254, spreadsheetCommandGalleryItem255})
+            Me.commandBarGalleryDropDown10.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup50})
             Me.commandBarGalleryDropDown10.Gallery.ItemImageLayout = DevExpress.Utils.Drawing.ImageLayoutMode.MiddleLeft
             Me.commandBarGalleryDropDown10.Gallery.ItemImageLocation = DevExpress.Utils.Locations.Left
             Me.commandBarGalleryDropDown10.Gallery.RowCount = 5
@@ -2370,8 +2324,8 @@
             spreadsheetCommandGalleryItemGroup51.CommandName = "ChartUpDownBarsCommandGroup"
             spreadsheetCommandGalleryItem256.CommandName = "ChartHideUpDownBars"
             spreadsheetCommandGalleryItem257.CommandName = "ChartShowUpDownBars"
-            spreadsheetCommandGalleryItemGroup51.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem256, spreadsheetCommandGalleryItem257})
-            Me.commandBarGalleryDropDown11.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup51})
+            spreadsheetCommandGalleryItemGroup51.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem256, spreadsheetCommandGalleryItem257})
+            Me.commandBarGalleryDropDown11.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup51})
             Me.commandBarGalleryDropDown11.Gallery.ItemImageLayout = DevExpress.Utils.Drawing.ImageLayoutMode.MiddleLeft
             Me.commandBarGalleryDropDown11.Gallery.ItemImageLocation = DevExpress.Utils.Locations.Left
             Me.commandBarGalleryDropDown11.Gallery.RowCount = 2
@@ -2399,8 +2353,8 @@
             spreadsheetCommandGalleryItem259.CommandName = "ChartErrorBarsStandardError"
             spreadsheetCommandGalleryItem260.CommandName = "ChartErrorBarsPercentage"
             spreadsheetCommandGalleryItem261.CommandName = "ChartErrorBarsStandardDeviation"
-            spreadsheetCommandGalleryItemGroup52.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem258, spreadsheetCommandGalleryItem259, spreadsheetCommandGalleryItem260, spreadsheetCommandGalleryItem261})
-            Me.commandBarGalleryDropDown12.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup52})
+            spreadsheetCommandGalleryItemGroup52.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem258, spreadsheetCommandGalleryItem259, spreadsheetCommandGalleryItem260, spreadsheetCommandGalleryItem261})
+            Me.commandBarGalleryDropDown12.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup52})
             Me.commandBarGalleryDropDown12.Gallery.ItemImageLayout = DevExpress.Utils.Drawing.ImageLayoutMode.MiddleLeft
             Me.commandBarGalleryDropDown12.Gallery.ItemImageLocation = DevExpress.Utils.Locations.Left
             Me.commandBarGalleryDropDown12.Gallery.RowCount = 4
@@ -2416,7 +2370,7 @@
             ' 
             ' chartsDesignRibbonPage1
             ' 
-            Me.chartsDesignRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() { Me.chartsDesignTypeRibbonPageGroup1, Me.chartsDesignDataRibbonPageGroup1, Me.chartsDesignLayoutsRibbonPageGroup1, Me.chartsDesignStylesRibbonPageGroup1})
+            Me.chartsDesignRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.chartsDesignTypeRibbonPageGroup1, Me.chartsDesignDataRibbonPageGroup1, Me.chartsDesignLayoutsRibbonPageGroup1, Me.chartsDesignStylesRibbonPageGroup1})
             Me.chartsDesignRibbonPage1.Name = "chartsDesignRibbonPage1"
             Me.chartsDesignRibbonPage1.Visible = False
             ' 
@@ -2489,7 +2443,7 @@
             ' 
             ' viewRibbonPage1
             ' 
-            Me.viewRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() { Me.showRibbonPageGroup1, Me.zoomRibbonPageGroup1, Me.windowRibbonPageGroup1})
+            Me.viewRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.showRibbonPageGroup1, Me.zoomRibbonPageGroup1, Me.windowRibbonPageGroup1})
             Me.viewRibbonPage1.Name = "viewRibbonPage1"
             ' 
             ' spreadsheetCommandBarCheckItem15
@@ -2540,12 +2494,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem14.CommandName = "ViewFreezePanesCommandGroup"
             Me.spreadsheetCommandBarSubItem14.Id = 153
-            Me.spreadsheetCommandBarSubItem14.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem45), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem46), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem47), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem48) _
-            })
+            Me.spreadsheetCommandBarSubItem14.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem45), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem46), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem47), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem48)})
             Me.spreadsheetCommandBarSubItem14.Name = "spreadsheetCommandBarSubItem14"
             ' 
             ' spreadsheetCommandBarButtonItem45
@@ -2582,7 +2531,7 @@
             ' 
             ' reviewRibbonPage1
             ' 
-            Me.reviewRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() { Me.commentsRibbonPageGroup1, Me.changesRibbonPageGroup1})
+            Me.reviewRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.commentsRibbonPageGroup1, Me.changesRibbonPageGroup1})
             Me.reviewRibbonPage1.Name = "reviewRibbonPage1"
             ' 
             ' spreadsheetCommandBarButtonItem49
@@ -2660,7 +2609,7 @@
             ' 
             ' dataRibbonPage1
             ' 
-            Me.dataRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() { Me.sortAndFilterRibbonPageGroup1, Me.dataToolsRibbonPageGroup1, Me.outlineRibbonPageGroup1})
+            Me.dataRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.sortAndFilterRibbonPageGroup1, Me.dataToolsRibbonPageGroup1, Me.outlineRibbonPageGroup1})
             Me.dataRibbonPage1.Name = "dataRibbonPage1"
             ' 
             ' spreadsheetCommandBarButtonItem58
@@ -2702,11 +2651,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem15.CommandName = "DataToolsDataValidationCommandGroup"
             Me.spreadsheetCommandBarSubItem15.Id = 172
-            Me.spreadsheetCommandBarSubItem15.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem62), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem63), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem64) _
-            })
+            Me.spreadsheetCommandBarSubItem15.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem62), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem63), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem64)})
             Me.spreadsheetCommandBarSubItem15.Name = "spreadsheetCommandBarSubItem15"
             ' 
             ' spreadsheetCommandBarButtonItem62
@@ -2740,10 +2685,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem16.CommandName = "OutlineGroupCommandGroup"
             Me.spreadsheetCommandBarSubItem16.Id = 176
-            Me.spreadsheetCommandBarSubItem16.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem65), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem66) _
-            })
+            Me.spreadsheetCommandBarSubItem16.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem65), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem66)})
             Me.spreadsheetCommandBarSubItem16.Name = "spreadsheetCommandBarSubItem16"
             Me.spreadsheetCommandBarSubItem16.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large
             ' 
@@ -2763,10 +2705,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem17.CommandName = "OutlineUngroupCommandGroup"
             Me.spreadsheetCommandBarSubItem17.Id = 179
-            Me.spreadsheetCommandBarSubItem17.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem67), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem68) _
-            })
+            Me.spreadsheetCommandBarSubItem17.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem67), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem68)})
             Me.spreadsheetCommandBarSubItem17.Name = "spreadsheetCommandBarSubItem17"
             Me.spreadsheetCommandBarSubItem17.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large
             ' 
@@ -2817,20 +2756,14 @@
             ' 
             ' formulasRibbonPage1
             ' 
-            Me.formulasRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() { Me.functionLibraryRibbonPageGroup1, Me.formulaDefinedNamesRibbonPageGroup1, Me.formulaAuditingRibbonPageGroup1, Me.formulaCalculationRibbonPageGroup1})
+            Me.formulasRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.functionLibraryRibbonPageGroup1, Me.formulaDefinedNamesRibbonPageGroup1, Me.formulaAuditingRibbonPageGroup1, Me.formulaCalculationRibbonPageGroup1})
             Me.formulasRibbonPage1.Name = "formulasRibbonPage1"
             ' 
             ' spreadsheetCommandBarSubItem18
             ' 
             Me.spreadsheetCommandBarSubItem18.CommandName = "FunctionsAutoSumCommandGroup"
             Me.spreadsheetCommandBarSubItem18.Id = 185
-            Me.spreadsheetCommandBarSubItem18.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem72), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem73), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem74), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem75), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem76) _
-            })
+            Me.spreadsheetCommandBarSubItem18.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem72), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem73), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem74), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem75), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem76)})
             Me.spreadsheetCommandBarSubItem18.Name = "spreadsheetCommandBarSubItem18"
             ' 
             ' spreadsheetCommandBarButtonItem72
@@ -2897,13 +2830,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem19.CommandName = "FunctionsMoreCommandGroup"
             Me.spreadsheetCommandBarSubItem19.Id = 197
-            Me.spreadsheetCommandBarSubItem19.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.functionsStatisticalItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.functionsEngineeringItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.functionsInformationItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.functionsCompatibilityItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.functionsWebItem1) _
-            })
+            Me.spreadsheetCommandBarSubItem19.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.functionsStatisticalItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.functionsEngineeringItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.functionsInformationItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.functionsCompatibilityItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.functionsWebItem1)})
             Me.spreadsheetCommandBarSubItem19.Name = "spreadsheetCommandBarSubItem19"
             ' 
             ' functionsStatisticalItem1
@@ -2987,10 +2914,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem20.CommandName = "FormulasCalculationOptionsCommandGroup"
             Me.spreadsheetCommandBarSubItem20.Id = 208
-            Me.spreadsheetCommandBarSubItem20.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem19), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem20) _
-            })
+            Me.spreadsheetCommandBarSubItem20.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem19), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem20)})
             Me.spreadsheetCommandBarSubItem20.Name = "spreadsheetCommandBarSubItem20"
             ' 
             ' spreadsheetCommandBarCheckItem19
@@ -3029,19 +2953,14 @@
             ' 
             ' pageLayoutRibbonPage1
             ' 
-            Me.pageLayoutRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() { Me.pageSetupRibbonPageGroup1, Me.pageSetupShowRibbonPageGroup1, Me.pageSetupPrintRibbonPageGroup1, Me.arrangeRibbonPageGroup1})
+            Me.pageLayoutRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.pageSetupRibbonPageGroup1, Me.pageSetupShowRibbonPageGroup1, Me.pageSetupPrintRibbonPageGroup1, Me.arrangeRibbonPageGroup1})
             Me.pageLayoutRibbonPage1.Name = "pageLayoutRibbonPage1"
             ' 
             ' spreadsheetCommandBarSubItem21
             ' 
             Me.spreadsheetCommandBarSubItem21.CommandName = "PageSetupMarginsCommandGroup"
             Me.spreadsheetCommandBarSubItem21.Id = 213
-            Me.spreadsheetCommandBarSubItem21.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem21), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem22), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem23), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem82) _
-            })
+            Me.spreadsheetCommandBarSubItem21.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem21), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem22), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem23), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem82)})
             Me.spreadsheetCommandBarSubItem21.Name = "spreadsheetCommandBarSubItem21"
             ' 
             ' spreadsheetCommandBarCheckItem21
@@ -3075,10 +2994,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem22.CommandName = "PageSetupOrientationCommandGroup"
             Me.spreadsheetCommandBarSubItem22.Id = 218
-            Me.spreadsheetCommandBarSubItem22.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem24), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem25) _
-            })
+            Me.spreadsheetCommandBarSubItem22.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem24), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem25)})
             Me.spreadsheetCommandBarSubItem22.Name = "spreadsheetCommandBarSubItem22"
             ' 
             ' spreadsheetCommandBarCheckItem24
@@ -3102,11 +3018,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem23.CommandName = "PageSetupPrintAreaCommandGroup"
             Me.spreadsheetCommandBarSubItem23.Id = 222
-            Me.spreadsheetCommandBarSubItem23.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem83), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem84), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem85) _
-            })
+            Me.spreadsheetCommandBarSubItem23.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem83), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem84), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem85)})
             Me.spreadsheetCommandBarSubItem23.Name = "spreadsheetCommandBarSubItem23"
             ' 
             ' spreadsheetCommandBarButtonItem83
@@ -3167,7 +3079,7 @@
             ' 
             ' insertRibbonPage1
             ' 
-            Me.insertRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() { Me.tablesRibbonPageGroup1, Me.illustrationsRibbonPageGroup1, Me.chartsRibbonPageGroup1, Me.linksRibbonPageGroup1, Me.symbolsRibbonPageGroup1})
+            Me.insertRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.tablesRibbonPageGroup1, Me.illustrationsRibbonPageGroup1, Me.chartsRibbonPageGroup1, Me.linksRibbonPageGroup1, Me.symbolsRibbonPageGroup1})
             Me.insertRibbonPage1.Name = "insertRibbonPage1"
             ' 
             ' spreadsheetCommandBarButtonItem86
@@ -3221,32 +3133,32 @@
             spreadsheetCommandGalleryItem262.CommandName = "InsertChartColumnClustered2D"
             spreadsheetCommandGalleryItem263.CommandName = "InsertChartColumnStacked2D"
             spreadsheetCommandGalleryItem264.CommandName = "InsertChartColumnPercentStacked2D"
-            spreadsheetCommandGalleryItemGroup53.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem262, spreadsheetCommandGalleryItem263, spreadsheetCommandGalleryItem264})
+            spreadsheetCommandGalleryItemGroup53.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem262, spreadsheetCommandGalleryItem263, spreadsheetCommandGalleryItem264})
             spreadsheetCommandGalleryItemGroup54.CommandName = "InsertChartColumn3DCommandGroup"
             spreadsheetCommandGalleryItem265.CommandName = "InsertChartColumnClustered3D"
             spreadsheetCommandGalleryItem266.CommandName = "InsertChartColumnStacked3D"
             spreadsheetCommandGalleryItem267.CommandName = "InsertChartColumnPercentStacked3D"
             spreadsheetCommandGalleryItem268.CommandName = "InsertChartColumn3D"
-            spreadsheetCommandGalleryItemGroup54.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem265, spreadsheetCommandGalleryItem266, spreadsheetCommandGalleryItem267, spreadsheetCommandGalleryItem268})
+            spreadsheetCommandGalleryItemGroup54.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem265, spreadsheetCommandGalleryItem266, spreadsheetCommandGalleryItem267, spreadsheetCommandGalleryItem268})
             spreadsheetCommandGalleryItemGroup55.CommandName = "InsertChartCylinderCommandGroup"
             spreadsheetCommandGalleryItem269.CommandName = "InsertChartCylinderClustered"
             spreadsheetCommandGalleryItem270.CommandName = "InsertChartCylinderStacked"
             spreadsheetCommandGalleryItem271.CommandName = "InsertChartCylinderPercentStacked"
             spreadsheetCommandGalleryItem272.CommandName = "InsertChartCylinder"
-            spreadsheetCommandGalleryItemGroup55.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem269, spreadsheetCommandGalleryItem270, spreadsheetCommandGalleryItem271, spreadsheetCommandGalleryItem272})
+            spreadsheetCommandGalleryItemGroup55.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem269, spreadsheetCommandGalleryItem270, spreadsheetCommandGalleryItem271, spreadsheetCommandGalleryItem272})
             spreadsheetCommandGalleryItemGroup56.CommandName = "InsertChartConeCommandGroup"
             spreadsheetCommandGalleryItem273.CommandName = "InsertChartConeClustered"
             spreadsheetCommandGalleryItem274.CommandName = "InsertChartConeStacked"
             spreadsheetCommandGalleryItem275.CommandName = "InsertChartConePercentStacked"
             spreadsheetCommandGalleryItem276.CommandName = "InsertChartCone"
-            spreadsheetCommandGalleryItemGroup56.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem273, spreadsheetCommandGalleryItem274, spreadsheetCommandGalleryItem275, spreadsheetCommandGalleryItem276})
+            spreadsheetCommandGalleryItemGroup56.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem273, spreadsheetCommandGalleryItem274, spreadsheetCommandGalleryItem275, spreadsheetCommandGalleryItem276})
             spreadsheetCommandGalleryItemGroup57.CommandName = "InsertChartPyramidCommandGroup"
             spreadsheetCommandGalleryItem277.CommandName = "InsertChartPyramidClustered"
             spreadsheetCommandGalleryItem278.CommandName = "InsertChartPyramidStacked"
             spreadsheetCommandGalleryItem279.CommandName = "InsertChartPyramidPercentStacked"
             spreadsheetCommandGalleryItem280.CommandName = "InsertChartPyramid"
-            spreadsheetCommandGalleryItemGroup57.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem277, spreadsheetCommandGalleryItem278, spreadsheetCommandGalleryItem279, spreadsheetCommandGalleryItem280})
-            Me.commandBarGalleryDropDown13.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup53, spreadsheetCommandGalleryItemGroup54, spreadsheetCommandGalleryItemGroup55, spreadsheetCommandGalleryItemGroup56, spreadsheetCommandGalleryItemGroup57})
+            spreadsheetCommandGalleryItemGroup57.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem277, spreadsheetCommandGalleryItem278, spreadsheetCommandGalleryItem279, spreadsheetCommandGalleryItem280})
+            Me.commandBarGalleryDropDown13.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup53, spreadsheetCommandGalleryItemGroup54, spreadsheetCommandGalleryItemGroup55, spreadsheetCommandGalleryItemGroup56, spreadsheetCommandGalleryItemGroup57})
             Me.commandBarGalleryDropDown13.Gallery.RowCount = 5
             Me.commandBarGalleryDropDown13.Name = "commandBarGalleryDropDown13"
             Me.commandBarGalleryDropDown13.Ribbon = Me.ribbonControl
@@ -3271,11 +3183,11 @@
             spreadsheetCommandGalleryItem284.CommandName = "InsertChartLineWithMarkers"
             spreadsheetCommandGalleryItem285.CommandName = "InsertChartStackedLineWithMarkers"
             spreadsheetCommandGalleryItem286.CommandName = "InsertChartPercentStackedLineWithMarkers"
-            spreadsheetCommandGalleryItemGroup58.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem281, spreadsheetCommandGalleryItem282, spreadsheetCommandGalleryItem283, spreadsheetCommandGalleryItem284, spreadsheetCommandGalleryItem285, spreadsheetCommandGalleryItem286})
+            spreadsheetCommandGalleryItemGroup58.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem281, spreadsheetCommandGalleryItem282, spreadsheetCommandGalleryItem283, spreadsheetCommandGalleryItem284, spreadsheetCommandGalleryItem285, spreadsheetCommandGalleryItem286})
             spreadsheetCommandGalleryItemGroup59.CommandName = "InsertChartLine3DCommandGroup"
             spreadsheetCommandGalleryItem287.CommandName = "InsertChartLine3D"
-            spreadsheetCommandGalleryItemGroup59.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem287})
-            Me.commandBarGalleryDropDown14.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup58, spreadsheetCommandGalleryItemGroup59})
+            spreadsheetCommandGalleryItemGroup59.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem287})
+            Me.commandBarGalleryDropDown14.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup58, spreadsheetCommandGalleryItemGroup59})
             Me.commandBarGalleryDropDown14.Name = "commandBarGalleryDropDown14"
             Me.commandBarGalleryDropDown14.Ribbon = Me.ribbonControl
             ' 
@@ -3295,16 +3207,16 @@
             spreadsheetCommandGalleryItemGroup60.CommandName = "InsertChartPie2DCommandGroup"
             spreadsheetCommandGalleryItem288.CommandName = "InsertChartPie2D"
             spreadsheetCommandGalleryItem289.CommandName = "InsertChartPieExploded2D"
-            spreadsheetCommandGalleryItemGroup60.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem288, spreadsheetCommandGalleryItem289})
+            spreadsheetCommandGalleryItemGroup60.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem288, spreadsheetCommandGalleryItem289})
             spreadsheetCommandGalleryItemGroup61.CommandName = "InsertChartPie3DCommandGroup"
             spreadsheetCommandGalleryItem290.CommandName = "InsertChartPie3D"
             spreadsheetCommandGalleryItem291.CommandName = "InsertChartPieExploded3D"
-            spreadsheetCommandGalleryItemGroup61.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem290, spreadsheetCommandGalleryItem291})
+            spreadsheetCommandGalleryItemGroup61.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem290, spreadsheetCommandGalleryItem291})
             spreadsheetCommandGalleryItemGroup62.CommandName = "InsertChartDoughnut2DCommandGroup"
             spreadsheetCommandGalleryItem292.CommandName = "InsertChartDoughnut2D"
             spreadsheetCommandGalleryItem293.CommandName = "InsertChartDoughnutExploded2D"
-            spreadsheetCommandGalleryItemGroup62.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem292, spreadsheetCommandGalleryItem293})
-            Me.commandBarGalleryDropDown15.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup60, spreadsheetCommandGalleryItemGroup61, spreadsheetCommandGalleryItemGroup62})
+            spreadsheetCommandGalleryItemGroup62.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem292, spreadsheetCommandGalleryItem293})
+            Me.commandBarGalleryDropDown15.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup60, spreadsheetCommandGalleryItemGroup61, spreadsheetCommandGalleryItemGroup62})
             Me.commandBarGalleryDropDown15.Name = "commandBarGalleryDropDown15"
             Me.commandBarGalleryDropDown15.Ribbon = Me.ribbonControl
             ' 
@@ -3325,28 +3237,28 @@
             spreadsheetCommandGalleryItem294.CommandName = "InsertChartBarClustered2D"
             spreadsheetCommandGalleryItem295.CommandName = "InsertChartBarStacked2D"
             spreadsheetCommandGalleryItem296.CommandName = "InsertChartBarPercentStacked2D"
-            spreadsheetCommandGalleryItemGroup63.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem294, spreadsheetCommandGalleryItem295, spreadsheetCommandGalleryItem296})
+            spreadsheetCommandGalleryItemGroup63.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem294, spreadsheetCommandGalleryItem295, spreadsheetCommandGalleryItem296})
             spreadsheetCommandGalleryItemGroup64.CommandName = "InsertChartBar3DCommandGroup"
             spreadsheetCommandGalleryItem297.CommandName = "InsertChartBarClustered3D"
             spreadsheetCommandGalleryItem298.CommandName = "InsertChartBarStacked3D"
             spreadsheetCommandGalleryItem299.CommandName = "InsertChartBarPercentStacked3D"
-            spreadsheetCommandGalleryItemGroup64.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem297, spreadsheetCommandGalleryItem298, spreadsheetCommandGalleryItem299})
+            spreadsheetCommandGalleryItemGroup64.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem297, spreadsheetCommandGalleryItem298, spreadsheetCommandGalleryItem299})
             spreadsheetCommandGalleryItemGroup65.CommandName = "InsertChartHorizontalCylinderCommandGroup"
             spreadsheetCommandGalleryItem300.CommandName = "InsertChartHorizontalCylinderClustered"
             spreadsheetCommandGalleryItem301.CommandName = "InsertChartHorizontalCylinderStacked"
             spreadsheetCommandGalleryItem302.CommandName = "InsertChartHorizontalCylinderPercentStacked"
-            spreadsheetCommandGalleryItemGroup65.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem300, spreadsheetCommandGalleryItem301, spreadsheetCommandGalleryItem302})
+            spreadsheetCommandGalleryItemGroup65.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem300, spreadsheetCommandGalleryItem301, spreadsheetCommandGalleryItem302})
             spreadsheetCommandGalleryItemGroup66.CommandName = "InsertChartHorizontalConeCommandGroup"
             spreadsheetCommandGalleryItem303.CommandName = "InsertChartHorizontalConeClustered"
             spreadsheetCommandGalleryItem304.CommandName = "InsertChartHorizontalConeStacked"
             spreadsheetCommandGalleryItem305.CommandName = "InsertChartHorizontalConePercentStacked"
-            spreadsheetCommandGalleryItemGroup66.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem303, spreadsheetCommandGalleryItem304, spreadsheetCommandGalleryItem305})
+            spreadsheetCommandGalleryItemGroup66.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem303, spreadsheetCommandGalleryItem304, spreadsheetCommandGalleryItem305})
             spreadsheetCommandGalleryItemGroup67.CommandName = "InsertChartHorizontalPyramidCommandGroup"
             spreadsheetCommandGalleryItem306.CommandName = "InsertChartHorizontalPyramidClustered"
             spreadsheetCommandGalleryItem307.CommandName = "InsertChartHorizontalPyramidStacked"
             spreadsheetCommandGalleryItem308.CommandName = "InsertChartHorizontalPyramidPercentStacked"
-            spreadsheetCommandGalleryItemGroup67.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem306, spreadsheetCommandGalleryItem307, spreadsheetCommandGalleryItem308})
-            Me.commandBarGalleryDropDown16.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup63, spreadsheetCommandGalleryItemGroup64, spreadsheetCommandGalleryItemGroup65, spreadsheetCommandGalleryItemGroup66, spreadsheetCommandGalleryItemGroup67})
+            spreadsheetCommandGalleryItemGroup67.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem306, spreadsheetCommandGalleryItem307, spreadsheetCommandGalleryItem308})
+            Me.commandBarGalleryDropDown16.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup63, spreadsheetCommandGalleryItemGroup64, spreadsheetCommandGalleryItemGroup65, spreadsheetCommandGalleryItemGroup66, spreadsheetCommandGalleryItemGroup67})
             Me.commandBarGalleryDropDown16.Gallery.RowCount = 5
             Me.commandBarGalleryDropDown16.Name = "commandBarGalleryDropDown16"
             Me.commandBarGalleryDropDown16.Ribbon = Me.ribbonControl
@@ -3368,13 +3280,13 @@
             spreadsheetCommandGalleryItem309.CommandName = "InsertChartArea"
             spreadsheetCommandGalleryItem310.CommandName = "InsertChartStackedArea"
             spreadsheetCommandGalleryItem311.CommandName = "InsertChartPercentStackedArea"
-            spreadsheetCommandGalleryItemGroup68.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem309, spreadsheetCommandGalleryItem310, spreadsheetCommandGalleryItem311})
+            spreadsheetCommandGalleryItemGroup68.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem309, spreadsheetCommandGalleryItem310, spreadsheetCommandGalleryItem311})
             spreadsheetCommandGalleryItemGroup69.CommandName = "InsertChartArea3DCommandGroup"
             spreadsheetCommandGalleryItem312.CommandName = "InsertChartArea3D"
             spreadsheetCommandGalleryItem313.CommandName = "InsertChartStackedArea3D"
             spreadsheetCommandGalleryItem314.CommandName = "InsertChartPercentStackedArea3D"
-            spreadsheetCommandGalleryItemGroup69.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem312, spreadsheetCommandGalleryItem313, spreadsheetCommandGalleryItem314})
-            Me.commandBarGalleryDropDown17.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup68, spreadsheetCommandGalleryItemGroup69})
+            spreadsheetCommandGalleryItemGroup69.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem312, spreadsheetCommandGalleryItem313, spreadsheetCommandGalleryItem314})
+            Me.commandBarGalleryDropDown17.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup68, spreadsheetCommandGalleryItemGroup69})
             Me.commandBarGalleryDropDown17.Gallery.RowCount = 2
             Me.commandBarGalleryDropDown17.Name = "commandBarGalleryDropDown17"
             Me.commandBarGalleryDropDown17.Ribbon = Me.ribbonControl
@@ -3398,12 +3310,12 @@
             spreadsheetCommandGalleryItem317.CommandName = "InsertChartScatterSmoothLines"
             spreadsheetCommandGalleryItem318.CommandName = "InsertChartScatterLinesAndMarkers"
             spreadsheetCommandGalleryItem319.CommandName = "InsertChartScatterLines"
-            spreadsheetCommandGalleryItemGroup70.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem315, spreadsheetCommandGalleryItem316, spreadsheetCommandGalleryItem317, spreadsheetCommandGalleryItem318, spreadsheetCommandGalleryItem319})
+            spreadsheetCommandGalleryItemGroup70.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem315, spreadsheetCommandGalleryItem316, spreadsheetCommandGalleryItem317, spreadsheetCommandGalleryItem318, spreadsheetCommandGalleryItem319})
             spreadsheetCommandGalleryItemGroup71.CommandName = "InsertChartBubbleCommandGroup"
             spreadsheetCommandGalleryItem320.CommandName = "InsertChartBubble"
             spreadsheetCommandGalleryItem321.CommandName = "InsertChartBubble3D"
-            spreadsheetCommandGalleryItemGroup71.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem320, spreadsheetCommandGalleryItem321})
-            Me.commandBarGalleryDropDown18.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup70, spreadsheetCommandGalleryItemGroup71})
+            spreadsheetCommandGalleryItemGroup71.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem320, spreadsheetCommandGalleryItem321})
+            Me.commandBarGalleryDropDown18.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup70, spreadsheetCommandGalleryItemGroup71})
             Me.commandBarGalleryDropDown18.Gallery.RowCount = 4
             Me.commandBarGalleryDropDown18.Name = "commandBarGalleryDropDown18"
             Me.commandBarGalleryDropDown18.Ribbon = Me.ribbonControl
@@ -3426,13 +3338,13 @@
             spreadsheetCommandGalleryItem323.CommandName = "InsertChartStockOpenHighLowClose"
             spreadsheetCommandGalleryItem324.CommandName = "InsertChartStockVolumeHighLowClose"
             spreadsheetCommandGalleryItem325.CommandName = "InsertChartStockVolumeOpenHighLowClose"
-            spreadsheetCommandGalleryItemGroup72.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem322, spreadsheetCommandGalleryItem323, spreadsheetCommandGalleryItem324, spreadsheetCommandGalleryItem325})
+            spreadsheetCommandGalleryItemGroup72.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem322, spreadsheetCommandGalleryItem323, spreadsheetCommandGalleryItem324, spreadsheetCommandGalleryItem325})
             spreadsheetCommandGalleryItemGroup73.CommandName = "InsertChartRadarCommandGroup"
             spreadsheetCommandGalleryItem326.CommandName = "InsertChartRadar"
             spreadsheetCommandGalleryItem327.CommandName = "InsertChartRadarWithMarkers"
             spreadsheetCommandGalleryItem328.CommandName = "InsertChartRadarFilled"
-            spreadsheetCommandGalleryItemGroup73.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem326, spreadsheetCommandGalleryItem327, spreadsheetCommandGalleryItem328})
-            Me.commandBarGalleryDropDown19.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup72, spreadsheetCommandGalleryItemGroup73})
+            spreadsheetCommandGalleryItemGroup73.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem326, spreadsheetCommandGalleryItem327, spreadsheetCommandGalleryItem328})
+            Me.commandBarGalleryDropDown19.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup72, spreadsheetCommandGalleryItemGroup73})
             Me.commandBarGalleryDropDown19.Gallery.RowCount = 2
             Me.commandBarGalleryDropDown19.Name = "commandBarGalleryDropDown19"
             Me.commandBarGalleryDropDown19.Ribbon = Me.ribbonControl
@@ -3469,7 +3381,7 @@
             ' 
             ' homeRibbonPage1
             ' 
-            Me.homeRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() { Me.clipboardRibbonPageGroup1, Me.fontRibbonPageGroup1, Me.alignmentRibbonPageGroup1, Me.numberRibbonPageGroup1, Me.stylesRibbonPageGroup1, Me.cellsRibbonPageGroup1, Me.editingRibbonPageGroup1})
+            Me.homeRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.clipboardRibbonPageGroup1, Me.fontRibbonPageGroup1, Me.alignmentRibbonPageGroup1, Me.numberRibbonPageGroup1, Me.stylesRibbonPageGroup1, Me.cellsRibbonPageGroup1, Me.editingRibbonPageGroup1})
             Me.homeRibbonPage1.Name = "homeRibbonPage1"
             reduceOperation2.Behavior = DevExpress.XtraBars.Ribbon.ReduceOperationBehavior.UntilAvailable
             reduceOperation2.Group = Me.stylesRibbonPageGroup1
@@ -3504,7 +3416,7 @@
             Me.spreadsheetCommandBarButtonItem94.CommandName = "ShowPasteSpecialForm"
             Me.spreadsheetCommandBarButtonItem94.Id = 253
             Me.spreadsheetCommandBarButtonItem94.Name = "spreadsheetCommandBarButtonItem94"
-            Me.spreadsheetCommandBarButtonItem94.RibbonStyle = (CType((DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText Or DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText), DevExpress.XtraBars.Ribbon.RibbonItemStyles))
+            Me.spreadsheetCommandBarButtonItem94.RibbonStyle = CType(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText Or DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)), DevExpress.XtraBars.Ribbon.RibbonItemStyles)
             ' 
             ' fontRibbonPageGroup1
             ' 
@@ -3579,23 +3491,7 @@
             Me.spreadsheetCommandBarSubItem24.ButtonGroupTag = "{DDB05A32-9207-4556-85CB-FE3403A197C7}"
             Me.spreadsheetCommandBarSubItem24.CommandName = "FormatBordersCommandGroup"
             Me.spreadsheetCommandBarSubItem24.Id = 262
-            Me.spreadsheetCommandBarSubItem24.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem97), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem98), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem99), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem100), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem101), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem102), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem103), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem104), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem105), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem106), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem107), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem108), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem109), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.changeBorderLineColorItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.changeBorderLineStyleItem1) _
-            })
+            Me.spreadsheetCommandBarSubItem24.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem97), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem98), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem99), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem100), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem101), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem102), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem103), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem104), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem105), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem106), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem107), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem108), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem109), New DevExpress.XtraBars.LinkPersistInfo(Me.changeBorderLineColorItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.changeBorderLineStyleItem1)})
             Me.spreadsheetCommandBarSubItem24.Name = "spreadsheetCommandBarSubItem24"
             Me.spreadsheetCommandBarSubItem24.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText
             ' 
@@ -3717,13 +3613,13 @@
             ' repositoryItemFontEdit1
             ' 
             Me.repositoryItemFontEdit1.AutoHeight = False
-            Me.repositoryItemFontEdit1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() { New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+            Me.repositoryItemFontEdit1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
             Me.repositoryItemFontEdit1.Name = "repositoryItemFontEdit1"
             ' 
             ' repositoryItemSpreadsheetFontSizeEdit1
             ' 
             Me.repositoryItemSpreadsheetFontSizeEdit1.AutoHeight = False
-            Me.repositoryItemSpreadsheetFontSizeEdit1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() { New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+            Me.repositoryItemSpreadsheetFontSizeEdit1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
             Me.repositoryItemSpreadsheetFontSizeEdit1.Control = Me.spreadsheetControl
             Me.repositoryItemSpreadsheetFontSizeEdit1.Name = "repositoryItemSpreadsheetFontSizeEdit1"
             ' 
@@ -3836,12 +3732,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem25.CommandName = "EditingMergeCellsCommandGroup"
             Me.spreadsheetCommandBarSubItem25.Id = 289
-            Me.spreadsheetCommandBarSubItem25.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem39), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem112), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem113), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem114) _
-            })
+            Me.spreadsheetCommandBarSubItem25.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem39), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem112), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem113), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem114)})
             Me.spreadsheetCommandBarSubItem25.Name = "spreadsheetCommandBarSubItem25"
             Me.spreadsheetCommandBarSubItem25.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText
             ' 
@@ -3913,13 +3804,7 @@
             Me.spreadsheetCommandBarSubItem26.ButtonGroupTag = "{508C2CE6-E1C8-4DD1-BA50-6C210FDB31B0}"
             Me.spreadsheetCommandBarSubItem26.CommandName = "FormatNumberAccountingCommandGroup"
             Me.spreadsheetCommandBarSubItem26.Id = 295
-            Me.spreadsheetCommandBarSubItem26.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem115), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem116), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem117), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem118), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem119) _
-            })
+            Me.spreadsheetCommandBarSubItem26.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem115), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem116), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem117), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem118), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem119)})
             Me.spreadsheetCommandBarSubItem26.Name = "spreadsheetCommandBarSubItem26"
             Me.spreadsheetCommandBarSubItem26.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText
             ' 
@@ -3995,7 +3880,7 @@
             ' repositoryItemPopupGalleryEdit1
             ' 
             Me.repositoryItemPopupGalleryEdit1.AutoHeight = False
-            Me.repositoryItemPopupGalleryEdit1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() { New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+            Me.repositoryItemPopupGalleryEdit1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
             ' 
             ' 
             ' 
@@ -4047,8 +3932,8 @@
             spreadsheetCommandGalleryItem197.CaptionAsValue = True
             spreadsheetCommandGalleryItem197.CommandName = "FormatNumberText"
             spreadsheetCommandGalleryItem197.IsEmptyHint = True
-            galleryItemGroup2.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem187, spreadsheetCommandGalleryItem188, spreadsheetCommandGalleryItem189, spreadsheetCommandGalleryItem190, spreadsheetCommandGalleryItem191, spreadsheetCommandGalleryItem192, spreadsheetCommandGalleryItem193, spreadsheetCommandGalleryItem194, spreadsheetCommandGalleryItem195, spreadsheetCommandGalleryItem196, spreadsheetCommandGalleryItem197})
-            Me.repositoryItemPopupGalleryEdit1.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { galleryItemGroup2})
+            galleryItemGroup2.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem187, spreadsheetCommandGalleryItem188, spreadsheetCommandGalleryItem189, spreadsheetCommandGalleryItem190, spreadsheetCommandGalleryItem191, spreadsheetCommandGalleryItem192, spreadsheetCommandGalleryItem193, spreadsheetCommandGalleryItem194, spreadsheetCommandGalleryItem195, spreadsheetCommandGalleryItem196, spreadsheetCommandGalleryItem197})
+            Me.repositoryItemPopupGalleryEdit1.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {galleryItemGroup2})
             Me.repositoryItemPopupGalleryEdit1.Gallery.ItemImageLayout = DevExpress.Utils.Drawing.ImageLayoutMode.MiddleLeft
             Me.repositoryItemPopupGalleryEdit1.Gallery.ItemImageLocation = DevExpress.Utils.Locations.Left
             Me.repositoryItemPopupGalleryEdit1.Gallery.RowCount = 11
@@ -4089,29 +3974,14 @@
             ' 
             Me.spreadsheetCommandBarSubItem27.CommandName = "ConditionalFormattingCommandGroup"
             Me.spreadsheetCommandBarSubItem27.Id = 305
-            Me.spreadsheetCommandBarSubItem27.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarSubItem28), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarSubItem29), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem20), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem21), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem22), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarSubItem30) _
-            })
+            Me.spreadsheetCommandBarSubItem27.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarSubItem28), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarSubItem29), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem20), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem21), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem22), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarSubItem30)})
             Me.spreadsheetCommandBarSubItem27.Name = "spreadsheetCommandBarSubItem27"
             ' 
             ' spreadsheetCommandBarSubItem28
             ' 
             Me.spreadsheetCommandBarSubItem28.CommandName = "ConditionalFormattingHighlightCellsRuleCommandGroup"
             Me.spreadsheetCommandBarSubItem28.Id = 313
-            Me.spreadsheetCommandBarSubItem28.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem124), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem125), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem126), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem127), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem128), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem129), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem130) _
-            })
+            Me.spreadsheetCommandBarSubItem28.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem124), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem125), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem126), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem127), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem128), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem129), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem130)})
             Me.spreadsheetCommandBarSubItem28.Name = "spreadsheetCommandBarSubItem28"
             ' 
             ' spreadsheetCommandBarButtonItem124
@@ -4167,14 +4037,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem29.CommandName = "ConditionalFormattingTopBottomRuleCommandGroup"
             Me.spreadsheetCommandBarSubItem29.Id = 320
-            Me.spreadsheetCommandBarSubItem29.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem131), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem132), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem133), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem134), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem135), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem136) _
-            })
+            Me.spreadsheetCommandBarSubItem29.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem131), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem132), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem133), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem134), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem135), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem136)})
             Me.spreadsheetCommandBarSubItem29.Name = "spreadsheetCommandBarSubItem29"
             ' 
             ' spreadsheetCommandBarButtonItem131
@@ -4240,7 +4103,7 @@
             spreadsheetCommandGalleryItem332.CommandName = "ConditionalFormattingDataBarGradientOrange"
             spreadsheetCommandGalleryItem333.CommandName = "ConditionalFormattingDataBarGradientLightBlue"
             spreadsheetCommandGalleryItem334.CommandName = "ConditionalFormattingDataBarGradientPurple"
-            spreadsheetCommandGalleryItemGroup74.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem329, spreadsheetCommandGalleryItem330, spreadsheetCommandGalleryItem331, spreadsheetCommandGalleryItem332, spreadsheetCommandGalleryItem333, spreadsheetCommandGalleryItem334})
+            spreadsheetCommandGalleryItemGroup74.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem329, spreadsheetCommandGalleryItem330, spreadsheetCommandGalleryItem331, spreadsheetCommandGalleryItem332, spreadsheetCommandGalleryItem333, spreadsheetCommandGalleryItem334})
             spreadsheetCommandGalleryItemGroup75.CommandName = "ConditionalFormattingDataBarsSolidFillCommandGroup"
             spreadsheetCommandGalleryItem335.CommandName = "ConditionalFormattingDataBarSolidBlue"
             spreadsheetCommandGalleryItem336.CommandName = "ConditionalFormattingDataBarSolidGreen"
@@ -4248,8 +4111,8 @@
             spreadsheetCommandGalleryItem338.CommandName = "ConditionalFormattingDataBarSolidOrange"
             spreadsheetCommandGalleryItem339.CommandName = "ConditionalFormattingDataBarSolidLightBlue"
             spreadsheetCommandGalleryItem340.CommandName = "ConditionalFormattingDataBarSolidPurple"
-            spreadsheetCommandGalleryItemGroup75.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem335, spreadsheetCommandGalleryItem336, spreadsheetCommandGalleryItem337, spreadsheetCommandGalleryItem338, spreadsheetCommandGalleryItem339, spreadsheetCommandGalleryItem340})
-            Me.commandBarGalleryDropDown21.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup74, spreadsheetCommandGalleryItemGroup75})
+            spreadsheetCommandGalleryItemGroup75.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem335, spreadsheetCommandGalleryItem336, spreadsheetCommandGalleryItem337, spreadsheetCommandGalleryItem338, spreadsheetCommandGalleryItem339, spreadsheetCommandGalleryItem340})
+            Me.commandBarGalleryDropDown21.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup74, spreadsheetCommandGalleryItemGroup75})
             Me.commandBarGalleryDropDown21.Gallery.RowCount = 4
             Me.commandBarGalleryDropDown21.Name = "commandBarGalleryDropDown21"
             Me.commandBarGalleryDropDown21.Ribbon = Me.ribbonControl
@@ -4281,8 +4144,8 @@
             spreadsheetCommandGalleryItem350.CommandName = "ConditionalFormattingColorScaleWhiteGreen"
             spreadsheetCommandGalleryItem351.CommandName = "ConditionalFormattingColorScaleGreenYellow"
             spreadsheetCommandGalleryItem352.CommandName = "ConditionalFormattingColorScaleYellowGreen"
-            spreadsheetCommandGalleryItemGroup76.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem341, spreadsheetCommandGalleryItem342, spreadsheetCommandGalleryItem343, spreadsheetCommandGalleryItem344, spreadsheetCommandGalleryItem345, spreadsheetCommandGalleryItem346, spreadsheetCommandGalleryItem347, spreadsheetCommandGalleryItem348, spreadsheetCommandGalleryItem349, spreadsheetCommandGalleryItem350, spreadsheetCommandGalleryItem351, spreadsheetCommandGalleryItem352})
-            Me.commandBarGalleryDropDown22.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup76})
+            spreadsheetCommandGalleryItemGroup76.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem341, spreadsheetCommandGalleryItem342, spreadsheetCommandGalleryItem343, spreadsheetCommandGalleryItem344, spreadsheetCommandGalleryItem345, spreadsheetCommandGalleryItem346, spreadsheetCommandGalleryItem347, spreadsheetCommandGalleryItem348, spreadsheetCommandGalleryItem349, spreadsheetCommandGalleryItem350, spreadsheetCommandGalleryItem351, spreadsheetCommandGalleryItem352})
+            Me.commandBarGalleryDropDown22.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup76})
             Me.commandBarGalleryDropDown22.Gallery.ShowGroupCaption = False
             Me.commandBarGalleryDropDown22.Name = "commandBarGalleryDropDown22"
             Me.commandBarGalleryDropDown22.Ribbon = Me.ribbonControl
@@ -4309,27 +4172,27 @@
             spreadsheetCommandGalleryItem357.CommandName = "ConditionalFormattingIconSetArrows5Colored"
             spreadsheetCommandGalleryItem358.CommandName = "ConditionalFormattingIconSetArrows5Grayed"
             spreadsheetCommandGalleryItem359.CommandName = "ConditionalFormattingIconSetTriangles3"
-            spreadsheetCommandGalleryItemGroup77.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem353, spreadsheetCommandGalleryItem354, spreadsheetCommandGalleryItem355, spreadsheetCommandGalleryItem356, spreadsheetCommandGalleryItem357, spreadsheetCommandGalleryItem358, spreadsheetCommandGalleryItem359})
+            spreadsheetCommandGalleryItemGroup77.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem353, spreadsheetCommandGalleryItem354, spreadsheetCommandGalleryItem355, spreadsheetCommandGalleryItem356, spreadsheetCommandGalleryItem357, spreadsheetCommandGalleryItem358, spreadsheetCommandGalleryItem359})
             spreadsheetCommandGalleryItemGroup78.CommandName = "ConditionalFormattingIconSetsShapesCommandGroup"
             spreadsheetCommandGalleryItem360.CommandName = "ConditionalFormattingIconSetTrafficLights3"
             spreadsheetCommandGalleryItem361.CommandName = "ConditionalFormattingIconSetTrafficLights3Rimmed"
             spreadsheetCommandGalleryItem362.CommandName = "ConditionalFormattingIconSetTrafficLights4"
             spreadsheetCommandGalleryItem363.CommandName = "ConditionalFormattingIconSetSigns3"
             spreadsheetCommandGalleryItem364.CommandName = "ConditionalFormattingIconSetRedToBlack"
-            spreadsheetCommandGalleryItemGroup78.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem360, spreadsheetCommandGalleryItem361, spreadsheetCommandGalleryItem362, spreadsheetCommandGalleryItem363, spreadsheetCommandGalleryItem364})
+            spreadsheetCommandGalleryItemGroup78.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem360, spreadsheetCommandGalleryItem361, spreadsheetCommandGalleryItem362, spreadsheetCommandGalleryItem363, spreadsheetCommandGalleryItem364})
             spreadsheetCommandGalleryItemGroup79.CommandName = "ConditionalFormattingIconSetsIndicatorsCommandGroup"
             spreadsheetCommandGalleryItem365.CommandName = "ConditionalFormattingIconSetSymbols3Circled"
             spreadsheetCommandGalleryItem366.CommandName = "ConditionalFormattingIconSetSymbols3"
             spreadsheetCommandGalleryItem367.CommandName = "ConditionalFormattingIconSetFlags3"
-            spreadsheetCommandGalleryItemGroup79.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem365, spreadsheetCommandGalleryItem366, spreadsheetCommandGalleryItem367})
+            spreadsheetCommandGalleryItemGroup79.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem365, spreadsheetCommandGalleryItem366, spreadsheetCommandGalleryItem367})
             spreadsheetCommandGalleryItemGroup80.CommandName = "ConditionalFormattingIconSetsRatingsCommandGroup"
             spreadsheetCommandGalleryItem368.CommandName = "ConditionalFormattingIconSetStars3"
             spreadsheetCommandGalleryItem369.CommandName = "ConditionalFormattingIconSetRatings4"
             spreadsheetCommandGalleryItem370.CommandName = "ConditionalFormattingIconSetRatings5"
             spreadsheetCommandGalleryItem371.CommandName = "ConditionalFormattingIconSetQuarters5"
             spreadsheetCommandGalleryItem372.CommandName = "ConditionalFormattingIconSetBoxes5"
-            spreadsheetCommandGalleryItemGroup80.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { spreadsheetCommandGalleryItem368, spreadsheetCommandGalleryItem369, spreadsheetCommandGalleryItem370, spreadsheetCommandGalleryItem371, spreadsheetCommandGalleryItem372})
-            Me.commandBarGalleryDropDown23.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { spreadsheetCommandGalleryItemGroup77, spreadsheetCommandGalleryItemGroup78, spreadsheetCommandGalleryItemGroup79, spreadsheetCommandGalleryItemGroup80})
+            spreadsheetCommandGalleryItemGroup80.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() {spreadsheetCommandGalleryItem368, spreadsheetCommandGalleryItem369, spreadsheetCommandGalleryItem370, spreadsheetCommandGalleryItem371, spreadsheetCommandGalleryItem372})
+            Me.commandBarGalleryDropDown23.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {spreadsheetCommandGalleryItemGroup77, spreadsheetCommandGalleryItemGroup78, spreadsheetCommandGalleryItemGroup79, spreadsheetCommandGalleryItemGroup80})
             Me.commandBarGalleryDropDown23.Gallery.RowCount = 7
             Me.commandBarGalleryDropDown23.Name = "commandBarGalleryDropDown23"
             Me.commandBarGalleryDropDown23.Ribbon = Me.ribbonControl
@@ -4338,10 +4201,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem30.CommandName = "ConditionalFormattingRemoveCommandGroup"
             Me.spreadsheetCommandBarSubItem30.Id = 326
-            Me.spreadsheetCommandBarSubItem30.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem137), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem138) _
-            })
+            Me.spreadsheetCommandBarSubItem30.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem137), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem138)})
             Me.spreadsheetCommandBarSubItem30.Name = "spreadsheetCommandBarSubItem30"
             ' 
             ' spreadsheetCommandBarButtonItem137
@@ -4401,11 +4261,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem31.CommandName = "InsertCellsCommandGroup"
             Me.spreadsheetCommandBarSubItem31.Id = 329
-            Me.spreadsheetCommandBarSubItem31.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem139), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem140), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem141) _
-            })
+            Me.spreadsheetCommandBarSubItem31.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem139), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem140), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem141)})
             Me.spreadsheetCommandBarSubItem31.Name = "spreadsheetCommandBarSubItem31"
             ' 
             ' spreadsheetCommandBarButtonItem139
@@ -4430,11 +4286,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem32.CommandName = "RemoveCellsCommandGroup"
             Me.spreadsheetCommandBarSubItem32.Id = 333
-            Me.spreadsheetCommandBarSubItem32.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem142), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem143), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem144) _
-            })
+            Me.spreadsheetCommandBarSubItem32.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem142), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem143), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem144)})
             Me.spreadsheetCommandBarSubItem32.Name = "spreadsheetCommandBarSubItem32"
             ' 
             ' spreadsheetCommandBarButtonItem142
@@ -4459,20 +4311,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem33.CommandName = "FormatCommandGroup"
             Me.spreadsheetCommandBarSubItem33.Id = 337
-            Me.spreadsheetCommandBarSubItem33.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem145), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem146), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem147), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem148), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem149), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarSubItem34), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem156), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem157), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.changeSheetTabColorItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem53), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem40), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem159) _
-            })
+            Me.spreadsheetCommandBarSubItem33.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem145), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem146), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem147), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem148), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem149), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarSubItem34), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem156), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem157), New DevExpress.XtraBars.LinkPersistInfo(Me.changeSheetTabColorItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem53), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem40), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem159)})
             Me.spreadsheetCommandBarSubItem33.Name = "spreadsheetCommandBarSubItem33"
             ' 
             ' spreadsheetCommandBarButtonItem145
@@ -4509,14 +4348,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem34.CommandName = "HideAndUnhideCommandGroup"
             Me.spreadsheetCommandBarSubItem34.Id = 349
-            Me.spreadsheetCommandBarSubItem34.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem150), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem151), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem152), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem153), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem154), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem155) _
-            })
+            Me.spreadsheetCommandBarSubItem34.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem150), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem151), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem152), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem153), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem154), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem155)})
             Me.spreadsheetCommandBarSubItem34.Name = "spreadsheetCommandBarSubItem34"
             ' 
             ' spreadsheetCommandBarButtonItem150
@@ -4604,13 +4436,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem35.CommandName = "EditingAutoSumCommandGroup"
             Me.spreadsheetCommandBarSubItem35.Id = 355
-            Me.spreadsheetCommandBarSubItem35.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem72), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem73), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem74), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem75), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem76) _
-            })
+            Me.spreadsheetCommandBarSubItem35.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem72), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem73), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem74), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem75), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem76)})
             Me.spreadsheetCommandBarSubItem35.Name = "spreadsheetCommandBarSubItem35"
             Me.spreadsheetCommandBarSubItem35.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText
             ' 
@@ -4648,12 +4474,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem36.CommandName = "EditingFillCommandGroup"
             Me.spreadsheetCommandBarSubItem36.Id = 356
-            Me.spreadsheetCommandBarSubItem36.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem165), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem166), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem167), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem168) _
-            })
+            Me.spreadsheetCommandBarSubItem36.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem165), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem166), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem167), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem168)})
             Me.spreadsheetCommandBarSubItem36.Name = "spreadsheetCommandBarSubItem36"
             Me.spreadsheetCommandBarSubItem36.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText
             ' 
@@ -4685,14 +4506,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem37.CommandName = "FormatClearCommandGroup"
             Me.spreadsheetCommandBarSubItem37.Id = 361
-            Me.spreadsheetCommandBarSubItem37.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem169), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem170), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem171), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem172), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem173), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem174) _
-            })
+            Me.spreadsheetCommandBarSubItem37.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem169), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem170), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem171), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem172), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem173), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem174)})
             Me.spreadsheetCommandBarSubItem37.Name = "spreadsheetCommandBarSubItem37"
             Me.spreadsheetCommandBarSubItem37.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText
             ' 
@@ -4736,13 +4550,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem38.CommandName = "EditingSortAndFilterCommandGroup"
             Me.spreadsheetCommandBarSubItem38.Id = 368
-            Me.spreadsheetCommandBarSubItem38.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem58), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem59), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem17), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem60), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem61) _
-            })
+            Me.spreadsheetCommandBarSubItem38.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem58), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem59), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem17), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem60), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem61)})
             Me.spreadsheetCommandBarSubItem38.Name = "spreadsheetCommandBarSubItem38"
             ' 
             ' spreadsheetCommandBarButtonItem175
@@ -4779,15 +4587,7 @@
             ' 
             Me.spreadsheetCommandBarSubItem39.CommandName = "EditingFindAndSelectCommandGroup"
             Me.spreadsheetCommandBarSubItem39.Id = 369
-            Me.spreadsheetCommandBarSubItem39.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem179), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem180), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem181), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem182), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem183), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem184), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem185) _
-            })
+            Me.spreadsheetCommandBarSubItem39.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem179), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem180), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem181), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem182), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem183), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem184), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem185)})
             Me.spreadsheetCommandBarSubItem39.Name = "spreadsheetCommandBarSubItem39"
             ' 
             ' spreadsheetCommandBarButtonItem179
@@ -4847,7 +4647,7 @@
             ' 
             ' fileRibbonPage1
             ' 
-            Me.fileRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() { Me.commonRibbonPageGroup1, Me.infoRibbonPageGroup1})
+            Me.fileRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.commonRibbonPageGroup1, Me.infoRibbonPageGroup1})
             Me.fileRibbonPage1.Name = "fileRibbonPage1"
             ' 
             ' spreadsheetCommandBarButtonItem186
@@ -4917,7 +4717,7 @@
             ' 
             ' Form1
             ' 
-            Me.AllowFormGlass = DevExpress.Utils.DefaultBoolean.False
+            Me.AllowFormGlass = DevExpress.Utils.DefaultBoolean.[False]
             Me.AutoScaleDimensions = New System.Drawing.SizeF(6F, 13F)
             Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
             Me.ClientSize = New System.Drawing.Size(1100, 696)
@@ -4928,516 +4728,974 @@
             Me.Name = "Form1"
             Me.Ribbon = Me.ribbonControl
             Me.Text = "Spreadsheet"
-            DirectCast(Me.ribbonControl, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.appMenu, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.popupControlContainer2, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.ribbonControl), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.appMenu), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.popupControlContainer2), System.ComponentModel.ISupportInitialize).EndInit()
             Me.popupControlContainer2.ResumeLayout(False)
-            DirectCast(Me.buttonEdit.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.popupControlContainer1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.buttonEdit.Properties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.popupControlContainer1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.popupControlContainer1.ResumeLayout(False)
             Me.popupControlContainer1.PerformLayout()
-            DirectCast(Me.ribbonImageCollection, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.ribbonImageCollectionLarge, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.ribbonImageCollection), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.ribbonImageCollectionLarge), System.ComponentModel.ISupportInitialize).EndInit()
             Me.spreadsheetFormulaBarPanel.ResumeLayout(False)
-            DirectCast(Me.formulaBarNameBoxSplitContainerControl, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.formulaBarNameBoxSplitContainerControl), System.ComponentModel.ISupportInitialize).EndInit()
             Me.formulaBarNameBoxSplitContainerControl.ResumeLayout(False)
-            DirectCast(Me.spreadsheetNameBoxControl.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.spreadsheetBarController1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.repositoryItemTextEdit1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown2, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown3, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown4, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown5, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown6, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown7, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown8, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown9, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown10, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown11, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown12, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown13, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown14, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown15, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown16, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown17, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown18, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown19, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown20, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.repositoryItemFontEdit1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.repositoryItemSpreadsheetFontSizeEdit1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.repositoryItemPopupGalleryEdit1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown21, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown22, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown23, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.commandBarGalleryDropDown24, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.spreadsheetNameBoxControl.Properties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.spreadsheetBarController1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.repositoryItemTextEdit1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown2), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown3), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown4), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown5), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown6), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown7), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown8), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown9), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown10), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown11), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown12), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown13), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown14), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown15), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown16), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown17), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown18), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown19), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown20), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.repositoryItemFontEdit1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.repositoryItemSpreadsheetFontSizeEdit1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.repositoryItemPopupGalleryEdit1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown21), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown22), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown23), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.commandBarGalleryDropDown24), System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
             Me.PerformLayout()
-
         End Sub
 
-        #End Region
-
+#End Region
         Private ribbonControl As DevExpress.XtraBars.Ribbon.RibbonControl
+
         Private iExit As DevExpress.XtraBars.BarButtonItem
+
         Private iHelp As DevExpress.XtraBars.BarButtonItem
+
         Private iAbout As DevExpress.XtraBars.BarButtonItem
+
         Private siStatus As DevExpress.XtraBars.BarStaticItem
+
         Private siInfo As DevExpress.XtraBars.BarStaticItem
+
         Private rgbiSkins As DevExpress.XtraBars.RibbonGalleryBarItem
+
         Private appMenu As DevExpress.XtraBars.Ribbon.ApplicationMenu
+
         Private popupControlContainer1 As DevExpress.XtraBars.PopupControlContainer
+
         Private someLabelControl2 As DevExpress.XtraEditors.LabelControl
+
         Private someLabelControl1 As DevExpress.XtraEditors.LabelControl
+
         Private popupControlContainer2 As DevExpress.XtraBars.PopupControlContainer
+
         Private buttonEdit As DevExpress.XtraEditors.ButtonEdit
+
         Private ribbonImageCollection As DevExpress.Utils.ImageCollection
+
         Private ribbonImageCollectionLarge As DevExpress.Utils.ImageCollection
+
         Private spreadsheetFormulaBarPanel As System.Windows.Forms.Panel
+
         Private spreadsheetControl As DevExpress.XtraSpreadsheet.SpreadsheetControl
+
         Private splitterControl As DevExpress.XtraEditors.SplitterControl
+
         Private formulaBarNameBoxSplitContainerControl As DevExpress.XtraEditors.SplitContainerControl
+
         Private spreadsheetNameBoxControl As DevExpress.XtraSpreadsheet.SpreadsheetNameBoxControl
+
         Private spreadsheetFormulaBarControl1 As DevExpress.XtraSpreadsheet.SpreadsheetFormulaBarControl
+
         Private spreadsheetCommandBarSubItem1 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem1 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem2 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem3 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem2 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem4 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem5 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem6 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem7 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem3 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem8 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem9 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem10 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem11 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem12 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem4 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem13 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem14 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarCheckItem1 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem2 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem3 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem4 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private galleryPivotStylesItem1 As DevExpress.XtraSpreadsheet.UI.GalleryPivotStylesItem
+
         Private spreadsheetCommandBarButtonItem15 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem16 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem17 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem18 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem19 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem20 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem21 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem5 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem22 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem23 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem24 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem6 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem25 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem26 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem7 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem27 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem28 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem29 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem30 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem8 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem31 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem32 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem33 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem34 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarCheckItem5 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem6 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem7 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarSubItem9 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem35 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem36 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem10 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem37 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem38 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private barStaticItem1 As DevExpress.XtraBars.BarStaticItem
+
         Private renameTableItem1 As DevExpress.XtraSpreadsheet.UI.RenameTableItem
+
         Private repositoryItemTextEdit1 As DevExpress.XtraEditors.Repository.RepositoryItemTextEdit
+
         Private spreadsheetCommandBarCheckItem8 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem9 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem10 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem11 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem12 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem13 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem14 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private galleryTableStylesItem1 As DevExpress.XtraSpreadsheet.UI.GalleryTableStylesItem
+
         Private spreadsheetCommandBarSubItem11 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem1 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown1 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem2 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown2 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarSubItem12 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem3 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown3 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem4 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown4 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem5 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown5 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarSubItem13 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem6 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown6 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem7 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown7 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem8 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown8 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem9 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown9 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem10 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown10 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem11 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown11 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem12 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown12 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarButtonItem39 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem40 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem41 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private galleryChartLayoutItem1 As DevExpress.XtraSpreadsheet.UI.GalleryChartLayoutItem
+
         Private galleryChartStyleItem1 As DevExpress.XtraSpreadsheet.UI.GalleryChartStyleItem
+
         Private spreadsheetCommandBarCheckItem15 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem16 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarButtonItem42 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem43 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem44 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem14 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem45 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem46 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem47 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem48 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem49 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem50 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem51 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem52 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem53 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem54 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem55 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem56 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem57 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem58 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem59 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarCheckItem17 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarButtonItem60 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem61 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem15 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem62 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem63 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem64 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem16 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem65 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem66 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem17 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem67 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem68 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem69 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem70 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem71 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem18 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem72 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem73 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem74 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem75 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem76 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private functionsFinancialItem1 As DevExpress.XtraSpreadsheet.UI.FunctionsFinancialItem
+
         Private functionsLogicalItem1 As DevExpress.XtraSpreadsheet.UI.FunctionsLogicalItem
+
         Private functionsTextItem1 As DevExpress.XtraSpreadsheet.UI.FunctionsTextItem
+
         Private functionsDateAndTimeItem1 As DevExpress.XtraSpreadsheet.UI.FunctionsDateAndTimeItem
+
         Private functionsLookupAndReferenceItem1 As DevExpress.XtraSpreadsheet.UI.FunctionsLookupAndReferenceItem
+
         Private functionsMathAndTrigonometryItem1 As DevExpress.XtraSpreadsheet.UI.FunctionsMathAndTrigonometryItem
+
         Private spreadsheetCommandBarSubItem19 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private functionsStatisticalItem1 As DevExpress.XtraSpreadsheet.UI.FunctionsStatisticalItem
+
         Private functionsEngineeringItem1 As DevExpress.XtraSpreadsheet.UI.FunctionsEngineeringItem
+
         Private functionsInformationItem1 As DevExpress.XtraSpreadsheet.UI.FunctionsInformationItem
+
         Private functionsCompatibilityItem1 As DevExpress.XtraSpreadsheet.UI.FunctionsCompatibilityItem
+
         Private functionsWebItem1 As DevExpress.XtraSpreadsheet.UI.FunctionsWebItem
+
         Private spreadsheetCommandBarButtonItem77 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem78 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private definedNameListItem1 As DevExpress.XtraSpreadsheet.UI.DefinedNameListItem
+
         Private spreadsheetCommandBarButtonItem79 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarCheckItem18 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarSubItem20 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarCheckItem19 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem20 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarButtonItem80 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem81 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem21 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarCheckItem21 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem22 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem23 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarButtonItem82 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem22 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarCheckItem24 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem25 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private pageSetupPaperKindItem1 As DevExpress.XtraSpreadsheet.UI.PageSetupPaperKindItem
+
         Private spreadsheetCommandBarSubItem23 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem83 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem84 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem85 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarCheckItem26 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem27 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarButtonItem86 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem87 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem88 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem13 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown13 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem14 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown14 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem15 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown15 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem16 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown16 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem17 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown17 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem18 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown18 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem19 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown19 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarButtonItem89 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem90 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem91 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem92 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem93 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem94 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private barButtonGroup1 As DevExpress.XtraBars.BarButtonGroup
+
         Private changeFontNameItem1 As DevExpress.XtraSpreadsheet.UI.ChangeFontNameItem
+
         Private repositoryItemFontEdit1 As DevExpress.XtraEditors.Repository.RepositoryItemFontEdit
+
         Private changeFontSizeItem1 As DevExpress.XtraSpreadsheet.UI.ChangeFontSizeItem
+
         Private repositoryItemSpreadsheetFontSizeEdit1 As DevExpress.XtraSpreadsheet.Design.RepositoryItemSpreadsheetFontSizeEdit
+
         Private spreadsheetCommandBarButtonItem95 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem96 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private barButtonGroup2 As DevExpress.XtraBars.BarButtonGroup
+
         Private spreadsheetCommandBarCheckItem28 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem29 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem30 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem31 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private barButtonGroup3 As DevExpress.XtraBars.BarButtonGroup
+
         Private spreadsheetCommandBarSubItem24 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem97 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem98 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem99 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem100 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem101 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem102 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem103 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem104 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem105 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem106 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem107 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem108 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem109 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private changeBorderLineColorItem1 As DevExpress.XtraSpreadsheet.UI.ChangeBorderLineColorItem
+
         Private changeBorderLineStyleItem1 As DevExpress.XtraSpreadsheet.UI.ChangeBorderLineStyleItem
+
         Private commandBarGalleryDropDown20 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private barButtonGroup4 As DevExpress.XtraBars.BarButtonGroup
+
         Private changeCellFillColorItem1 As DevExpress.XtraSpreadsheet.UI.ChangeCellFillColorItem
+
         Private changeFontColorItem1 As DevExpress.XtraSpreadsheet.UI.ChangeFontColorItem
+
         Private barButtonGroup5 As DevExpress.XtraBars.BarButtonGroup
+
         Private spreadsheetCommandBarCheckItem32 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem33 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem34 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private barButtonGroup6 As DevExpress.XtraBars.BarButtonGroup
+
         Private spreadsheetCommandBarCheckItem35 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem36 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarCheckItem37 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private barButtonGroup7 As DevExpress.XtraBars.BarButtonGroup
+
         Private spreadsheetCommandBarButtonItem110 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem111 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarCheckItem38 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarSubItem25 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarCheckItem39 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarButtonItem112 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem113 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem114 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private barButtonGroup8 As DevExpress.XtraBars.BarButtonGroup
+
         Private changeNumberFormatItem1 As DevExpress.XtraSpreadsheet.UI.ChangeNumberFormatItem
+
         Private repositoryItemPopupGalleryEdit1 As DevExpress.XtraEditors.Repository.RepositoryItemPopupGalleryEdit
+
         Private barButtonGroup9 As DevExpress.XtraBars.BarButtonGroup
+
         Private spreadsheetCommandBarSubItem26 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem115 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem116 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem117 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem118 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem119 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem120 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem121 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private barButtonGroup10 As DevExpress.XtraBars.BarButtonGroup
+
         Private spreadsheetCommandBarButtonItem122 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem123 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem27 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarSubItem28 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem124 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem125 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem126 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem127 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem128 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem129 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem130 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem29 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem131 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem132 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem133 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem134 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem135 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem136 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem20 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown21 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem21 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown22 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarButtonGalleryDropDownItem22 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonGalleryDropDownItem
+
         Private commandBarGalleryDropDown23 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private spreadsheetCommandBarSubItem30 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem137 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem138 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private galleryFormatAsTableItem1 As DevExpress.XtraSpreadsheet.UI.GalleryFormatAsTableItem
+
         Private commandBarGalleryDropDown24 As DevExpress.XtraBars.Commands.CommandBarGalleryDropDown
+
         Private galleryChangeStyleItem1 As DevExpress.XtraSpreadsheet.UI.GalleryChangeStyleItem
+
         Private spreadsheetCommandBarSubItem31 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem139 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem140 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem141 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem32 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem142 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem143 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem144 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem33 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem145 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem146 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem147 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem148 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem149 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem34 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem150 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem151 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem152 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem153 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem154 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem155 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem156 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem157 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private changeSheetTabColorItem1 As DevExpress.XtraSpreadsheet.UI.ChangeSheetTabColorItem
+
         Private spreadsheetCommandBarCheckItem40 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarButtonItem159 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem35 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarSubItem36 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem165 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem166 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem167 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem168 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem37 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem169 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem170 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem171 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem172 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem173 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem174 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarSubItem38 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarSubItem39 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarSubItem
+
         Private spreadsheetCommandBarButtonItem179 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem180 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem181 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem182 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem183 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem184 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem185 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem186 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem187 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem188 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem189 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem190 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem191 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem192 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem193 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem194 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem195 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private pivotTableToolsRibbonPageCategory1 As DevExpress.XtraSpreadsheet.UI.PivotTableToolsRibbonPageCategory
+
         Private pivotTableAnalyzeRibbonPage1 As DevExpress.XtraSpreadsheet.UI.PivotTableAnalyzeRibbonPage
+
         Private pivotTableAnalyzePivotTableRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.PivotTableAnalyzePivotTableRibbonPageGroup
+
         Private pivotTableAnalyzeActiveFieldRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.PivotTableAnalyzeActiveFieldRibbonPageGroup
+
         Private pivotTableAnalyzeGroupRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.PivotTableAnalyzeGroupRibbonPageGroup
+
         Private pivotTableAnalyzeDataRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.PivotTableAnalyzeDataRibbonPageGroup
+
         Private pivotTableAnalyzeActionsRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.PivotTableAnalyzeActionsRibbonPageGroup
+
         Private pivotTableAnalyzeCalculationsRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.PivotTableAnalyzeCalculationsRibbonPageGroup
+
         Private pivotTableAnalyzeShowRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.PivotTableAnalyzeShowRibbonPageGroup
+
         Private pivotTableDesignRibbonPage1 As DevExpress.XtraSpreadsheet.UI.PivotTableDesignRibbonPage
+
         Private pivotTableDesignLayoutRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.PivotTableDesignLayoutRibbonPageGroup
+
         Private pivotTableDesignPivotTableStyleOptionsRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.PivotTableDesignPivotTableStyleOptionsRibbonPageGroup
+
         Private pivotTableDesignPivotTableStylesRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.PivotTableDesignPivotTableStylesRibbonPageGroup
+
         Private pictureToolsRibbonPageCategory1 As DevExpress.XtraSpreadsheet.UI.PictureToolsRibbonPageCategory
+
         Private pictureFormatRibbonPage1 As DevExpress.XtraSpreadsheet.UI.PictureFormatRibbonPage
+
         Private pictureFormatArrangeRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.PictureFormatArrangeRibbonPageGroup
+
         Private drawingToolsRibbonPageCategory1 As DevExpress.XtraSpreadsheet.UI.DrawingToolsRibbonPageCategory
+
         Private drawingFormatRibbonPage1 As DevExpress.XtraSpreadsheet.UI.DrawingFormatRibbonPage
+
         Private drawingFormatArrangeRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.DrawingFormatArrangeRibbonPageGroup
+
         Private tableToolsRibbonPageCategory1 As DevExpress.XtraSpreadsheet.UI.TableToolsRibbonPageCategory
+
         Private tableToolsDesignRibbonPage1 As DevExpress.XtraSpreadsheet.UI.TableToolsDesignRibbonPage
+
         Private tablePropertiesRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.TablePropertiesRibbonPageGroup
+
         Private tableToolsRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.TableToolsRibbonPageGroup
+
         Private tableStyleOptionsRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.TableStyleOptionsRibbonPageGroup
+
         Private tableStylesRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.TableStylesRibbonPageGroup
+
         Private chartToolsRibbonPageCategory1 As DevExpress.XtraSpreadsheet.UI.ChartToolsRibbonPageCategory
+
         Private chartsDesignRibbonPage1 As DevExpress.XtraSpreadsheet.UI.ChartsDesignRibbonPage
+
         Private chartsDesignTypeRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.ChartsDesignTypeRibbonPageGroup
+
         Private chartsDesignDataRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.ChartsDesignDataRibbonPageGroup
+
         Private chartsDesignLayoutsRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.ChartsDesignLayoutsRibbonPageGroup
+
         Private chartsDesignStylesRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.ChartsDesignStylesRibbonPageGroup
+
         Private chartsLayoutRibbonPage1 As DevExpress.XtraSpreadsheet.UI.ChartsLayoutRibbonPage
+
         Private chartsLayoutAxesRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.ChartsLayoutAxesRibbonPageGroup
+
         Private chartsLayoutLabelsRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.ChartsLayoutLabelsRibbonPageGroup
+
         Private chartsLayoutAnalysisRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.ChartsLayoutAnalysisRibbonPageGroup
+
         Private chartsFormatRibbonPage1 As DevExpress.XtraSpreadsheet.UI.ChartsFormatRibbonPage
+
         Private chartsFormatArrangeRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.ChartsFormatArrangeRibbonPageGroup
+
         Private fileRibbonPage1 As DevExpress.XtraSpreadsheet.UI.FileRibbonPage
+
         Private commonRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.CommonRibbonPageGroup
+
         Private infoRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.InfoRibbonPageGroup
+
         Private homeRibbonPage1 As DevExpress.XtraSpreadsheet.UI.HomeRibbonPage
+
         Private clipboardRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.ClipboardRibbonPageGroup
+
         Private fontRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.FontRibbonPageGroup
+
         Private alignmentRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.AlignmentRibbonPageGroup
+
         Private numberRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.NumberRibbonPageGroup
+
         Private stylesRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.StylesRibbonPageGroup
+
         Private cellsRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.CellsRibbonPageGroup
+
         Private editingRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.EditingRibbonPageGroup
+
         Private insertRibbonPage1 As DevExpress.XtraSpreadsheet.UI.InsertRibbonPage
+
         Private tablesRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.TablesRibbonPageGroup
+
         Private illustrationsRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.IllustrationsRibbonPageGroup
+
         Private chartsRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.ChartsRibbonPageGroup
+
         Private linksRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.LinksRibbonPageGroup
+
         Private symbolsRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.SymbolsRibbonPageGroup
+
         Private pageLayoutRibbonPage1 As DevExpress.XtraSpreadsheet.UI.PageLayoutRibbonPage
+
         Private pageSetupRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.PageSetupRibbonPageGroup
+
         Private pageSetupShowRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.PageSetupShowRibbonPageGroup
+
         Private pageSetupPrintRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.PageSetupPrintRibbonPageGroup
+
         Private arrangeRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.ArrangeRibbonPageGroup
+
         Private formulasRibbonPage1 As DevExpress.XtraSpreadsheet.UI.FormulasRibbonPage
+
         Private functionLibraryRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.FunctionLibraryRibbonPageGroup
+
         Private formulaDefinedNamesRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.FormulaDefinedNamesRibbonPageGroup
+
         Private formulaAuditingRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.FormulaAuditingRibbonPageGroup
+
         Private formulaCalculationRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.FormulaCalculationRibbonPageGroup
+
         Private dataRibbonPage1 As DevExpress.XtraSpreadsheet.UI.DataRibbonPage
+
         Private sortAndFilterRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.SortAndFilterRibbonPageGroup
+
         Private dataToolsRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.DataToolsRibbonPageGroup
+
         Private outlineRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.OutlineRibbonPageGroup
+
         Private reviewRibbonPage1 As DevExpress.XtraSpreadsheet.UI.ReviewRibbonPage
+
         Private commentsRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.CommentsRibbonPageGroup
+
         Private changesRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.ChangesRibbonPageGroup
+
         Private viewRibbonPage1 As DevExpress.XtraSpreadsheet.UI.ViewRibbonPage
+
         Private showRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.ShowRibbonPageGroup
+
         Private zoomRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.ZoomRibbonPageGroup
+
         Private windowRibbonPageGroup1 As DevExpress.XtraSpreadsheet.UI.WindowRibbonPageGroup
+
         Private spreadsheetBarController1 As DevExpress.XtraSpreadsheet.UI.SpreadsheetBarController
+
         Private spreadsheetCommandBarButtonItem158 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem160 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem161 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem162 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem163 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem164 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem175 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem176 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarCheckItem41 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarCheckItem
+
         Private spreadsheetCommandBarButtonItem177 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
+
         Private spreadsheetCommandBarButtonItem178 As DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandBarButtonItem
     End Class
 End Namespace
