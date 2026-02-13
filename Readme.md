@@ -23,7 +23,7 @@ To assign your own custom editor to a cell, handle the [SpreadsheetControl.Custo
 
 * [Custom Cell In-place Editors](https://docs.devexpress.com/WindowsForms/18170/controls-and-libraries/spreadsheet/cell-basics/custom-cell-in-place-editors)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-spreadsheet-assign-custom-in-place-editors&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-spreadsheet-assign-custom-in-place-editors&~~~was_helpful=no)
 
